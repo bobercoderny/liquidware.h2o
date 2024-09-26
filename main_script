@@ -9,166 +9,189 @@
 
 -- Instances
 
-local NIGGERNIGGER = Instance.new("ScreenGui")
-local Main = Instance.new("CanvasGroup")
-local Color = Instance.new("Frame")
-local LegitBot = Instance.new("Frame")
-local Frame = Instance.new("Frame")
-local Frame_2 = Instance.new("Frame")
-local Button = Instance.new("TextButton")
-local Circle = Instance.new("Frame")
-local UICorner = Instance.new("UICorner")
-local UIScale = Instance.new("UIScale")
-local UICorner_2 = Instance.new("UICorner")
-local UICorner_3 = Instance.new("UICorner")
-local TextLabel = Instance.new("TextLabel")
-local UITextSizeConstraint = Instance.new("UITextSizeConstraint")
-local UIPadding = Instance.new("UIPadding")
-local Aimtext = Instance.new("TextLabel")
-local UITextSizeConstraint_2 = Instance.new("UITextSizeConstraint")
-local UIPadding_2 = Instance.new("UIPadding")
-local Aimkey = Instance.new("TextButton")
-local UITextSizeConstraint_3 = Instance.new("UITextSizeConstraint")
-local UIPadding_3 = Instance.new("UIPadding")
-local UICorner_4 = Instance.new("UICorner")
-local Frame_3 = Instance.new("Frame")
-local UICorner_5 = Instance.new("UICorner")
-local Frame_4 = Instance.new("Frame")
-local Button_2 = Instance.new("TextButton")
-local Circle_2 = Instance.new("Frame")
-local UICorner_6 = Instance.new("UICorner")
-local UIScale_2 = Instance.new("UIScale")
-local UICorner_7 = Instance.new("UICorner")
-local TextLabel_2 = Instance.new("TextLabel")
-local UITextSizeConstraint_4 = Instance.new("UITextSizeConstraint")
-local UIPadding_4 = Instance.new("UIPadding")
-local Frame_5 = Instance.new("Frame")
-local Button_3 = Instance.new("TextButton")
-local Circle_3 = Instance.new("Frame")
-local UICorner_8 = Instance.new("UICorner")
-local UIScale_3 = Instance.new("UIScale")
-local UICorner_9 = Instance.new("UICorner")
-local TextLabel_3 = Instance.new("TextLabel")
-local UITextSizeConstraint_5 = Instance.new("UITextSizeConstraint")
-local UIPadding_5 = Instance.new("UIPadding")
-local UICorner_10 = Instance.new("UICorner")
-local Player = Instance.new("Frame")
-local Frame_6 = Instance.new("Frame")
-local Frame_7 = Instance.new("Frame")
-local Button_4 = Instance.new("TextButton")
-local Circle_4 = Instance.new("Frame")
-local UICorner_11 = Instance.new("UICorner")
-local UIScale_4 = Instance.new("UIScale")
-local UICorner_12 = Instance.new("UICorner")
-local UICorner_13 = Instance.new("UICorner")
-local TextLabel_4 = Instance.new("TextLabel")
-local UITextSizeConstraint_6 = Instance.new("UITextSizeConstraint")
-local UIPadding_6 = Instance.new("UIPadding")
-local TextLabel_5 = Instance.new("TextLabel")
-local UITextSizeConstraint_7 = Instance.new("UITextSizeConstraint")
-local UIPadding_7 = Instance.new("UIPadding")
-local Thirdtext = Instance.new("TextLabel")
-local UITextSizeConstraint_8 = Instance.new("UITextSizeConstraint")
-local UIPadding_8 = Instance.new("UIPadding")
-local Thirdkey = Instance.new("TextButton")
-local UITextSizeConstraint_9 = Instance.new("UITextSizeConstraint")
-local UIPadding_9 = Instance.new("UIPadding")
-local Frame_8 = Instance.new("Frame")
-local Button_5 = Instance.new("TextButton")
-local Circle_5 = Instance.new("Frame")
-local UICorner_14 = Instance.new("UICorner")
-local UIScale_5 = Instance.new("UIScale")
-local UICorner_15 = Instance.new("UICorner")
-local UICorner_16 = Instance.new("UICorner")
-local Frame_9 = Instance.new("Frame")
-local UICorner_17 = Instance.new("UICorner")
-local Frame_10 = Instance.new("Frame")
-local Button_6 = Instance.new("TextButton")
-local Circle_6 = Instance.new("Frame")
-local UICorner_18 = Instance.new("UICorner")
-local UIScale_6 = Instance.new("UIScale")
-local UICorner_19 = Instance.new("UICorner")
-local TextLabel_6 = Instance.new("TextLabel")
-local UITextSizeConstraint_10 = Instance.new("UITextSizeConstraint")
-local UIPadding_10 = Instance.new("UIPadding")
-local Frame_11 = Instance.new("Frame")
-local Button_7 = Instance.new("TextButton")
-local Circle_7 = Instance.new("Frame")
-local UICorner_20 = Instance.new("UICorner")
-local UIScale_7 = Instance.new("UIScale")
-local UICorner_21 = Instance.new("UICorner")
-local TextLabel_7 = Instance.new("TextLabel")
-local UITextSizeConstraint_11 = Instance.new("UITextSizeConstraint")
-local UIPadding_11 = Instance.new("UIPadding")
-local Misc = Instance.new("Frame")
-local Frame_12 = Instance.new("Frame")
-local Frame_13 = Instance.new("Frame")
-local Button_8 = Instance.new("TextButton")
-local Circle_8 = Instance.new("Frame")
-local UICorner_22 = Instance.new("UICorner")
-local UIScale_8 = Instance.new("UIScale")
-local UICorner_23 = Instance.new("UICorner")
-local UICorner_24 = Instance.new("UICorner")
-local TextLabel_8 = Instance.new("TextLabel")
-local UITextSizeConstraint_12 = Instance.new("UITextSizeConstraint")
-local UIPadding_12 = Instance.new("UIPadding")
-local UICorner_25 = Instance.new("UICorner")
-local Frame_14 = Instance.new("Frame")
-local UICorner_26 = Instance.new("UICorner")
-local Frame_15 = Instance.new("Frame")
-local Button_9 = Instance.new("TextButton")
-local Circle_9 = Instance.new("Frame")
-local UICorner_27 = Instance.new("UICorner")
-local UIScale_9 = Instance.new("UIScale")
-local UICorner_28 = Instance.new("UICorner")
-local TextLabel_9 = Instance.new("TextLabel")
-local UITextSizeConstraint_13 = Instance.new("UITextSizeConstraint")
-local UIPadding_13 = Instance.new("UIPadding")
-local Frame_16 = Instance.new("Frame")
-local Button_10 = Instance.new("TextButton")
-local Circle_10 = Instance.new("Frame")
-local UICorner_29 = Instance.new("UICorner")
-local UIScale_10 = Instance.new("UIScale")
-local UICorner_30 = Instance.new("UICorner")
-local TextLabel_10 = Instance.new("TextLabel")
-local UITextSizeConstraint_14 = Instance.new("UITextSizeConstraint")
-local UIPadding_14 = Instance.new("UIPadding")
-local Tabs = Instance.new("Frame")
-local LegitBot_2 = Instance.new("TextButton")
-local UICorner_31 = Instance.new("UICorner")
-local ImageLabel = Instance.new("ImageLabel")
-local UIPadding_15 = Instance.new("UIPadding")
-local Player_2 = Instance.new("TextButton")
-local UICorner_32 = Instance.new("UICorner")
-local ImageLabel_2 = Instance.new("ImageLabel")
-local Effect = Instance.new("Frame")
-local UICorner_33 = Instance.new("UICorner")
-local Frame_17 = Instance.new("Frame")
-local Misc_2 = Instance.new("TextButton")
-local UICorner_34 = Instance.new("UICorner")
-local ImageLabel_3 = Instance.new("ImageLabel")
-local TopBarText = Instance.new("TextLabel")
-local UITextSizeConstraint_15 = Instance.new("UITextSizeConstraint")
-local UIPadding_16 = Instance.new("UIPadding")
-local Settings = Instance.new("TextButton")
-local UICorner_35 = Instance.new("UICorner")
-local ImageLabel_4 = Instance.new("ImageLabel")
-local Effect2 = Instance.new("Frame")
-local UICorner_36 = Instance.new("UICorner")
-local TopText = Instance.new("TextLabel")
-local UITextSizeConstraint_16 = Instance.new("UITextSizeConstraint")
-local UIPadding_17 = Instance.new("UIPadding")
-local LogoImg = Instance.new("ImageLabel")
-local LogoImg_2 = Instance.new("ImageLabel")
-local TopText_2 = Instance.new("TextLabel")
-local UITextSizeConstraint_17 = Instance.new("UITextSizeConstraint")
-local UIPadding_18 = Instance.new("UIPadding")
-local Topbar = Instance.new("Frame")
-local UICorner_37 = Instance.new("UICorner")
+NIGGERNIGGER = Instance.new("ScreenGui")
+Main = Instance.new("CanvasGroup")
+Color = Instance.new("Frame")
+LegitBot = Instance.new("Frame")
+Frame = Instance.new("Frame")
+Frame_2 = Instance.new("Frame")
+Button = Instance.new("TextButton")
+Circle = Instance.new("Frame")
+UICorner = Instance.new("UICorner")
+UIScale = Instance.new("UIScale")
+UICorner_2 = Instance.new("UICorner")
+UICorner_3 = Instance.new("UICorner")
+TextLabel = Instance.new("TextLabel")
+UITextSizeConstraint = Instance.new("UITextSizeConstraint")
+UIPadding = Instance.new("UIPadding")
+UICorner_4 = Instance.new("UICorner")
+Frame_3 = Instance.new("Frame")
+UICorner_5 = Instance.new("UICorner")
+UICorner_6 = Instance.new("UICorner")
+Player = Instance.new("Frame")
+Frame_4 = Instance.new("Frame")
+Frame_5 = Instance.new("Frame")
+Button_2 = Instance.new("TextButton")
+Circle_2 = Instance.new("Frame")
+UICorner_7 = Instance.new("UICorner")
+UIScale_2 = Instance.new("UIScale")
+UICorner_8 = Instance.new("UICorner")
+UICorner_9 = Instance.new("UICorner")
+TextLabel_2 = Instance.new("TextLabel")
+UITextSizeConstraint_2 = Instance.new("UITextSizeConstraint")
+UIPadding_2 = Instance.new("UIPadding")
+TextLabel_3 = Instance.new("TextLabel")
+UITextSizeConstraint_3 = Instance.new("UITextSizeConstraint")
+UIPadding_3 = Instance.new("UIPadding")
+Thirdtext = Instance.new("TextLabel")
+UITextSizeConstraint_4 = Instance.new("UITextSizeConstraint")
+UIPadding_4 = Instance.new("UIPadding")
+Thirdkey = Instance.new("TextButton")
+UITextSizeConstraint_5 = Instance.new("UITextSizeConstraint")
+UIPadding_5 = Instance.new("UIPadding")
+Frame_6 = Instance.new("Frame")
+Button_3 = Instance.new("TextButton")
+Circle_3 = Instance.new("Frame")
+UICorner_10 = Instance.new("UICorner")
+UIScale_3 = Instance.new("UIScale")
+UICorner_11 = Instance.new("UICorner")
+Frame_7 = Instance.new("Frame")
+Button_4 = Instance.new("TextButton")
+Circle_4 = Instance.new("Frame")
+UICorner_12 = Instance.new("UICorner")
+UIScale_4 = Instance.new("UIScale")
+UICorner_13 = Instance.new("UICorner")
+TextLabel_4 = Instance.new("TextLabel")
+UITextSizeConstraint_6 = Instance.new("UITextSizeConstraint")
+UIPadding_6 = Instance.new("UIPadding")
+UICorner_14 = Instance.new("UICorner")
+Frame_8 = Instance.new("Frame")
+UICorner_15 = Instance.new("UICorner")
+Frame_9 = Instance.new("Frame")
+Button_5 = Instance.new("TextButton")
+Circle_5 = Instance.new("Frame")
+UICorner_16 = Instance.new("UICorner")
+UIScale_5 = Instance.new("UIScale")
+UICorner_17 = Instance.new("UICorner")
+TextLabel_5 = Instance.new("TextLabel")
+UITextSizeConstraint_7 = Instance.new("UITextSizeConstraint")
+UIPadding_7 = Instance.new("UIPadding")
+Frame_10 = Instance.new("Frame")
+Button_6 = Instance.new("TextButton")
+Circle_6 = Instance.new("Frame")
+UICorner_18 = Instance.new("UICorner")
+UIScale_6 = Instance.new("UIScale")
+UICorner_19 = Instance.new("UICorner")
+TextLabel_6 = Instance.new("TextLabel")
+UITextSizeConstraint_8 = Instance.new("UITextSizeConstraint")
+UIPadding_8 = Instance.new("UIPadding")
+Misc = Instance.new("Frame")
+Frame_11 = Instance.new("Frame")
+Frame_12 = Instance.new("Frame")
+Button_7 = Instance.new("TextButton")
+Circle_7 = Instance.new("Frame")
+UICorner_20 = Instance.new("UICorner")
+UIScale_7 = Instance.new("UIScale")
+UICorner_21 = Instance.new("UICorner")
+UICorner_22 = Instance.new("UICorner")
+TextLabel_7 = Instance.new("TextLabel")
+UITextSizeConstraint_9 = Instance.new("UITextSizeConstraint")
+UIPadding_9 = Instance.new("UIPadding")
+UICorner_23 = Instance.new("UICorner")
+Frame_13 = Instance.new("Frame")
+UICorner_24 = Instance.new("UICorner")
+hit = Instance.new("Frame")
+Button_8 = Instance.new("TextButton")
+Circle_8 = Instance.new("Frame")
+UICorner_25 = Instance.new("UICorner")
+UIScale_8 = Instance.new("UIScale")
+UICorner_26 = Instance.new("UICorner")
+TextLabel_8 = Instance.new("TextLabel")
+UITextSizeConstraint_10 = Instance.new("UITextSizeConstraint")
+UIPadding_10 = Instance.new("UIPadding")
+spread = Instance.new("Frame")
+Button_9 = Instance.new("TextButton")
+Circle_9 = Instance.new("Frame")
+UICorner_27 = Instance.new("UICorner")
+UIScale_9 = Instance.new("UIScale")
+UICorner_28 = Instance.new("UICorner")
+TextLabel_9 = Instance.new("TextLabel")
+UITextSizeConstraint_11 = Instance.new("UITextSizeConstraint")
+UIPadding_11 = Instance.new("UIPadding")
+TextLabel_10 = Instance.new("TextLabel")
+UITextSizeConstraint_12 = Instance.new("UITextSizeConstraint")
+UIPadding_12 = Instance.new("UIPadding")
+zoom = Instance.new("Frame")
+Button_10 = Instance.new("TextButton")
+Circle_10 = Instance.new("Frame")
+UICorner_29 = Instance.new("UICorner")
+UIScale_10 = Instance.new("UIScale")
+UICorner_30 = Instance.new("UICorner")
+Zoomkey = Instance.new("TextButton")
+UITextSizeConstraint_13 = Instance.new("UITextSizeConstraint")
+UIPadding_13 = Instance.new("UIPadding")
+ZoomkeyText = Instance.new("TextLabel")
+UITextSizeConstraint_14 = Instance.new("UITextSizeConstraint")
+UIPadding_14 = Instance.new("UIPadding")
+TextLabel_11 = Instance.new("TextLabel")
+UITextSizeConstraint_15 = Instance.new("UITextSizeConstraint")
+UIPadding_15 = Instance.new("UIPadding")
+screen = Instance.new("Frame")
+Button_11 = Instance.new("TextButton")
+Circle_11 = Instance.new("Frame")
+UICorner_31 = Instance.new("UICorner")
+UIScale_11 = Instance.new("UIScale")
+UICorner_32 = Instance.new("UICorner")
+TextLabel_12 = Instance.new("TextLabel")
+UITextSizeConstraint_16 = Instance.new("UITextSizeConstraint")
+UIPadding_16 = Instance.new("UIPadding")
+_2 = Instance.new("TextLabel")
+UITextSizeConstraint_17 = Instance.new("UITextSizeConstraint")
+UIPadding_17 = Instance.new("UIPadding")
+bright = Instance.new("Frame")
+Button_12 = Instance.new("TextButton")
+Circle_12 = Instance.new("Frame")
+UICorner_33 = Instance.new("UICorner")
+UIScale_12 = Instance.new("UIScale")
+UICorner_34 = Instance.new("UICorner")
+Tabs = Instance.new("Frame")
+LegitBot_2 = Instance.new("TextButton")
+UICorner_35 = Instance.new("UICorner")
+ImageLabel = Instance.new("ImageLabel")
+UIPadding_18 = Instance.new("UIPadding")
+Player_2 = Instance.new("TextButton")
+UICorner_36 = Instance.new("UICorner")
+ImageLabel_2 = Instance.new("ImageLabel")
+Effect = Instance.new("Frame")
+UICorner_37 = Instance.new("UICorner")
+Frame_14 = Instance.new("Frame")
+Misc_2 = Instance.new("TextButton")
+UICorner_38 = Instance.new("UICorner")
+ImageLabel_3 = Instance.new("ImageLabel")
+TopBarText = Instance.new("TextLabel")
+UITextSizeConstraint_18 = Instance.new("UITextSizeConstraint")
+UIPadding_19 = Instance.new("UIPadding")
+Settings = Instance.new("TextButton")
+UICorner_39 = Instance.new("UICorner")
+ImageLabel_4 = Instance.new("ImageLabel")
+Effect2 = Instance.new("Frame")
+UICorner_40 = Instance.new("UICorner")
+TopText = Instance.new("TextLabel")
+UITextSizeConstraint_19 = Instance.new("UITextSizeConstraint")
+UIPadding_20 = Instance.new("UIPadding")
+LogoImg = Instance.new("ImageLabel")
+LogoImg_2 = Instance.new("ImageLabel")
+Topbar = Instance.new("Frame")
+UICorner_41 = Instance.new("UICorner")
+UIScale_13 = Instance.new("UIScale")
 
-local key_val = Instance.new("StringValue", Aimkey)
-key_val.Name= "Key"
-key_val.Value= "Z"
+
+local key_val2 = Instance.new("StringValue", Thirdkey)
+key_val2.Name= "Key"
+key_val2.Value= "B"
+local key_val3 = Instance.new("StringValue", Zoomkey)
+key_val3.Name= "Key"
+key_val3.Value= "C"
 
 NIGGERNIGGER.Name = "NIGGER NIGGER"
 NIGGERNIGGER.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
@@ -258,7 +281,7 @@ TextLabel.BackgroundTransparency = 1
 TextLabel.BorderColor3 = Color3.new(0, 0, 0)
 TextLabel.BorderSizePixel = 0
 TextLabel.Size = UDim2.new(0, 260, 0, 45)
-TextLabel.FontFace = Font.fromId(12187365364)
+TextLabel.Font = Enum.Font.Unknown
 TextLabel.Text = "SilentAim"
 TextLabel.TextColor3 = Color3.new(0.894118, 0.819608, 0.0117647)
 TextLabel.TextScaled = true
@@ -275,60 +298,6 @@ UIPadding.PaddingLeft = UDim.new(0, 25)
 UIPadding.PaddingRight = UDim.new(0, 25)
 UIPadding.PaddingTop = UDim.new(0, 10)
 
-Aimtext.Name = "Aimtext"
-Aimtext.Parent = Frame
-Aimtext.BackgroundColor3 = Color3.new(1, 1, 1)
-Aimtext.BackgroundTransparency = 1
-Aimtext.BorderColor3 = Color3.new(0, 0, 0)
-Aimtext.BorderSizePixel = 0
-Aimtext.Position = UDim2.new(0, 0, 0, 45)
-Aimtext.Size = UDim2.new(0, 260, 0, 45)
-Aimtext.Visible = false
-Aimtext.FontFace = Font.fromId(12187365364)
-Aimtext.Text = "Keybind"
-Aimtext.TextColor3 = Color3.new(1, 1, 1)
-Aimtext.TextScaled = true
-Aimtext.TextSize = 14
-Aimtext.TextWrapped = true
-Aimtext.TextXAlignment = Enum.TextXAlignment.Left
-
-UITextSizeConstraint_2.Parent = Aimtext
-UITextSizeConstraint_2.MaxTextSize = 40
-
-UIPadding_2.Parent = Aimtext
-UIPadding_2.PaddingBottom = UDim.new(0, 10)
-UIPadding_2.PaddingLeft = UDim.new(0, 25)
-UIPadding_2.PaddingRight = UDim.new(0, 25)
-UIPadding_2.PaddingTop = UDim.new(0, 10)
-
-Aimkey.Name = "Aimkey"
-Aimkey.Parent = Frame
-Aimkey.Active = false
-Aimkey.BackgroundColor3 = Color3.new(1, 1, 1)
-Aimkey.BackgroundTransparency = 1
-Aimkey.BorderColor3 = Color3.new(0, 0, 0)
-Aimkey.BorderSizePixel = 0
-Aimkey.Position = UDim2.new(0, 40, 0, 45)
-Aimkey.Selectable = false
-Aimkey.Size = UDim2.new(0, 260, 0, 45)
-Aimkey.Visible = false
-Aimkey.FontFace = Font.fromId(12187365364)
-Aimkey.Text = "[Z]"
-Aimkey.TextColor3 = Color3.new(1, 1, 1)
-Aimkey.TextScaled = true
-Aimkey.TextSize = 14
-Aimkey.TextWrapped = true
-Aimkey.TextXAlignment = Enum.TextXAlignment.Right
-
-UITextSizeConstraint_3.Parent = Aimkey
-UITextSizeConstraint_3.MaxTextSize = 40
-
-UIPadding_3.Parent = Aimkey
-UIPadding_3.PaddingBottom = UDim.new(0, 10)
-UIPadding_3.PaddingLeft = UDim.new(0, 25)
-UIPadding_3.PaddingRight = UDim.new(0, 25)
-UIPadding_3.PaddingTop = UDim.new(0, 10)
-
 UICorner_4.Parent = LegitBot
 UICorner_4.CornerRadius = UDim.new(0, 15)
 
@@ -338,135 +307,13 @@ Frame_3.BorderColor3 = Color3.new(0, 0, 0)
 Frame_3.BorderSizePixel = 0
 Frame_3.Position = UDim2.new(0.487500012, 0, 0.0479999781, 0)
 Frame_3.Size = UDim2.new(0, 300, 0, 350)
+Frame_3.Visible = false
 
 UICorner_5.Parent = Frame_3
 UICorner_5.CornerRadius = UDim.new(0, 15)
 
-Frame_4.Parent = Frame_3
-Frame_4.BackgroundColor3 = Color3.new(0.156863, 0.152941, 0.152941)
-Frame_4.BorderColor3 = Color3.new(0, 0, 0)
-Frame_4.BorderSizePixel = 0
-Frame_4.Position = UDim2.new(0, 230, 0, 13)
-Frame_4.Size = UDim2.new(0, 60, 0, 25)
-
-Button_2.Name = "Button"
-Button_2.Parent = Frame_4
-Button_2.BackgroundColor3 = Color3.new(0.741176, 0.737255, 0.760784)
-Button_2.BackgroundTransparency = 1
-Button_2.BorderColor3 = Color3.new(0.105882, 0.164706, 0.207843)
-Button_2.BorderSizePixel = 0
-Button_2.Size = UDim2.new(1, 0, 1, 0)
-Button_2.ZIndex = 2
-Button_2.Font = Enum.Font.SourceSans
-Button_2.Text = " "
-Button_2.TextColor3 = Color3.new(0, 0, 0)
-Button_2.TextSize = 14
-
-Circle_2.Name = "Circle"
-Circle_2.Parent = Frame_4
-Circle_2.BackgroundColor3 = Color3.new(0.741176, 0.737255, 0.760784)
-Circle_2.BorderColor3 = Color3.new(0, 0, 0)
-Circle_2.BorderSizePixel = 0
-Circle_2.Position = UDim2.new(0, 0, -0.100000001, 0)
-Circle_2.Size = UDim2.new(0, 30, 0, 30)
-
-UICorner_6.Parent = Circle_2
-UICorner_6.CornerRadius = UDim.new(1, 0)
-
-UIScale_2.Parent = Frame_4
-UIScale_2.Scale = 0.800000011920929
-
-UICorner_7.Parent = Frame_4
-UICorner_7.CornerRadius = UDim.new(1, 0)
-
-TextLabel_2.Parent = Frame_3
-TextLabel_2.BackgroundColor3 = Color3.new(0.894118, 0.819608, 0.0117647)
-TextLabel_2.BackgroundTransparency = 1
-TextLabel_2.BorderColor3 = Color3.new(0, 0, 0)
-TextLabel_2.BorderSizePixel = 0
-TextLabel_2.Size = UDim2.new(0, 260, 0, 45)
-TextLabel_2.FontFace = Font.fromId(12187365364)
-TextLabel_2.Text = "Fullbright"
-TextLabel_2.TextColor3 = Color3.new(1, 1, 1)
-TextLabel_2.TextScaled = true
-TextLabel_2.TextSize = 14
-TextLabel_2.TextWrapped = true
-TextLabel_2.TextXAlignment = Enum.TextXAlignment.Left
-
-UITextSizeConstraint_4.Parent = TextLabel_2
-UITextSizeConstraint_4.MaxTextSize = 40
-
-UIPadding_4.Parent = TextLabel_2
-UIPadding_4.PaddingBottom = UDim.new(0, 10)
-UIPadding_4.PaddingLeft = UDim.new(0, 25)
-UIPadding_4.PaddingRight = UDim.new(0, 25)
-UIPadding_4.PaddingTop = UDim.new(0, 10)
-
-Frame_5.Parent = Frame_3
-Frame_5.BackgroundColor3 = Color3.new(0.156863, 0.152941, 0.152941)
-Frame_5.BorderColor3 = Color3.new(0, 0, 0)
-Frame_5.BorderSizePixel = 0
-Frame_5.Position = UDim2.new(0, 230, 0, 58)
-Frame_5.Size = UDim2.new(0, 60, 0, 25)
-Frame_5.Visible = false
-
-Button_3.Name = "Button"
-Button_3.Parent = Frame_5
-Button_3.BackgroundColor3 = Color3.new(0.741176, 0.737255, 0.760784)
-Button_3.BackgroundTransparency = 1
-Button_3.BorderColor3 = Color3.new(0.105882, 0.164706, 0.207843)
-Button_3.BorderSizePixel = 0
-Button_3.Size = UDim2.new(1, 0, 1, 0)
-Button_3.ZIndex = 2
-Button_3.Font = Enum.Font.SourceSans
-Button_3.Text = " "
-Button_3.TextColor3 = Color3.new(0, 0, 0)
-Button_3.TextSize = 14
-
-Circle_3.Name = "Circle"
-Circle_3.Parent = Frame_5
-Circle_3.BackgroundColor3 = Color3.new(0.741176, 0.737255, 0.760784)
-Circle_3.BorderColor3 = Color3.new(0, 0, 0)
-Circle_3.BorderSizePixel = 0
-Circle_3.Position = UDim2.new(0, 0, -0.100000001, 0)
-Circle_3.Size = UDim2.new(0, 30, 0, 30)
-
-UICorner_8.Parent = Circle_3
-UICorner_8.CornerRadius = UDim.new(1, 0)
-
-UIScale_3.Parent = Frame_5
-UIScale_3.Scale = 0.800000011920929
-
-UICorner_9.Parent = Frame_5
-UICorner_9.CornerRadius = UDim.new(1, 0)
-
-TextLabel_3.Parent = Frame_3
-TextLabel_3.BackgroundColor3 = Color3.new(0.894118, 0.819608, 0.0117647)
-TextLabel_3.BackgroundTransparency = 1
-TextLabel_3.BorderColor3 = Color3.new(0, 0, 0)
-TextLabel_3.BorderSizePixel = 0
-TextLabel_3.Position = UDim2.new(0, 0, 0, 45)
-TextLabel_3.Size = UDim2.new(0, 260, 0, 45)
-TextLabel_3.Visible = false
-TextLabel_3.FontFace = Font.fromId(12187365364)
-TextLabel_3.Text = "Fullbright"
-TextLabel_3.TextColor3 = Color3.new(1, 1, 1)
-TextLabel_3.TextScaled = true
-TextLabel_3.TextSize = 14
-TextLabel_3.TextWrapped = true
-TextLabel_3.TextXAlignment = Enum.TextXAlignment.Left
-
-UITextSizeConstraint_5.Parent = TextLabel_3
-UITextSizeConstraint_5.MaxTextSize = 40
-
-UIPadding_5.Parent = TextLabel_3
-UIPadding_5.PaddingBottom = UDim.new(0, 10)
-UIPadding_5.PaddingLeft = UDim.new(0, 25)
-UIPadding_5.PaddingRight = UDim.new(0, 25)
-UIPadding_5.PaddingTop = UDim.new(0, 10)
-
-UICorner_10.Parent = Color
-UICorner_10.CornerRadius = UDim.new(0, 15)
+UICorner_6.Parent = Color
+UICorner_6.CornerRadius = UDim.new(0, 15)
 
 Player.Name = "Player"
 Player.Parent = Color
@@ -479,18 +326,196 @@ Player.Position = UDim2.new(0.5, 0, 0.5, 0)
 Player.Size = UDim2.new(1, 0, 1, 0)
 Player.Visible = false
 
-Frame_6.Parent = Player
-Frame_6.BackgroundColor3 = Color3.new(0.121569, 0.117647, 0.117647)
+Frame_4.Parent = Player
+Frame_4.BackgroundColor3 = Color3.new(0.121569, 0.117647, 0.117647)
+Frame_4.BorderColor3 = Color3.new(0, 0, 0)
+Frame_4.BorderSizePixel = 0
+Frame_4.Position = UDim2.new(0.0350000001, 0, 0.0480000004, 0)
+Frame_4.Size = UDim2.new(0, 300, 0, 200)
+
+Frame_5.Parent = Frame_4
+Frame_5.BackgroundColor3 = Color3.new(0.156863, 0.152941, 0.152941)
+Frame_5.BorderColor3 = Color3.new(0, 0, 0)
+Frame_5.BorderSizePixel = 0
+Frame_5.Position = UDim2.new(0, 230, 0, 13)
+Frame_5.Size = UDim2.new(0, 60, 0, 25)
+
+Button_2.Name = "Button"
+Button_2.Parent = Frame_5
+Button_2.BackgroundColor3 = Color3.new(0.741176, 0.737255, 0.760784)
+Button_2.BackgroundTransparency = 1
+Button_2.BorderColor3 = Color3.new(0.105882, 0.164706, 0.207843)
+Button_2.BorderSizePixel = 0
+Button_2.Size = UDim2.new(1, 0, 1, 0)
+Button_2.ZIndex = 2
+Button_2.Font = Enum.Font.SourceSans
+Button_2.Text = " "
+Button_2.TextColor3 = Color3.new(0, 0, 0)
+Button_2.TextSize = 14
+
+Circle_2.Name = "Circle"
+Circle_2.Parent = Frame_5
+Circle_2.BackgroundColor3 = Color3.new(0.741176, 0.737255, 0.760784)
+Circle_2.BorderColor3 = Color3.new(0, 0, 0)
+Circle_2.BorderSizePixel = 0
+Circle_2.Position = UDim2.new(0, 0, -0.100000001, 0)
+Circle_2.Size = UDim2.new(0, 30, 0, 30)
+
+UICorner_7.Parent = Circle_2
+UICorner_7.CornerRadius = UDim.new(1, 0)
+
+UIScale_2.Parent = Frame_5
+UIScale_2.Scale = 0.800000011920929
+
+UICorner_8.Parent = Frame_5
+UICorner_8.CornerRadius = UDim.new(1, 0)
+
+UICorner_9.Parent = Frame_4
+UICorner_9.CornerRadius = UDim.new(0, 15)
+
+TextLabel_2.Parent = Frame_4
+TextLabel_2.BackgroundColor3 = Color3.new(0.894118, 0.819608, 0.0117647)
+TextLabel_2.BackgroundTransparency = 1
+TextLabel_2.BorderColor3 = Color3.new(0, 0, 0)
+TextLabel_2.BorderSizePixel = 0
+TextLabel_2.Size = UDim2.new(0, 260, 0, 45)
+TextLabel_2.Font = Enum.Font.Unknown
+TextLabel_2.Text = "Chams"
+TextLabel_2.TextColor3 = Color3.new(1, 1, 1)
+TextLabel_2.TextScaled = true
+TextLabel_2.TextSize = 14
+TextLabel_2.TextWrapped = true
+TextLabel_2.TextXAlignment = Enum.TextXAlignment.Left
+
+UITextSizeConstraint_2.Parent = TextLabel_2
+UITextSizeConstraint_2.MaxTextSize = 40
+
+UIPadding_2.Parent = TextLabel_2
+UIPadding_2.PaddingBottom = UDim.new(0, 10)
+UIPadding_2.PaddingLeft = UDim.new(0, 25)
+UIPadding_2.PaddingRight = UDim.new(0, 25)
+UIPadding_2.PaddingTop = UDim.new(0, 10)
+
+TextLabel_3.Parent = Frame_4
+TextLabel_3.BackgroundColor3 = Color3.new(0.894118, 0.819608, 0.0117647)
+TextLabel_3.BackgroundTransparency = 1
+TextLabel_3.BorderColor3 = Color3.new(0, 0, 0)
+TextLabel_3.BorderSizePixel = 0
+TextLabel_3.Position = UDim2.new(0, 0, 0, 90)
+TextLabel_3.Size = UDim2.new(0, 260, 0, 45)
+TextLabel_3.Font = Enum.Font.Unknown
+TextLabel_3.Text = "ThirdPerson"
+TextLabel_3.TextColor3 = Color3.new(1, 1, 1)
+TextLabel_3.TextScaled = true
+TextLabel_3.TextSize = 14
+TextLabel_3.TextWrapped = true
+TextLabel_3.TextXAlignment = Enum.TextXAlignment.Left
+
+UITextSizeConstraint_3.Parent = TextLabel_3
+UITextSizeConstraint_3.MaxTextSize = 40
+
+UIPadding_3.Parent = TextLabel_3
+UIPadding_3.PaddingBottom = UDim.new(0, 10)
+UIPadding_3.PaddingLeft = UDim.new(0, 25)
+UIPadding_3.PaddingRight = UDim.new(0, 25)
+UIPadding_3.PaddingTop = UDim.new(0, 10)
+
+Thirdtext.Name = "Thirdtext"
+Thirdtext.Parent = Frame_4
+Thirdtext.BackgroundColor3 = Color3.new(1, 1, 1)
+Thirdtext.BackgroundTransparency = 1
+Thirdtext.BorderColor3 = Color3.new(0, 0, 0)
+Thirdtext.BorderSizePixel = 0
+Thirdtext.Position = UDim2.new(0, 0, 0, 135)
+Thirdtext.Size = UDim2.new(0, 260, 0, 45)
+Thirdtext.Visible = false
+Thirdtext.Font = Enum.Font.Unknown
+Thirdtext.Text = "Keybind"
+Thirdtext.TextColor3 = Color3.new(1, 1, 1)
+Thirdtext.TextScaled = true
+Thirdtext.TextSize = 14
+Thirdtext.TextWrapped = true
+Thirdtext.TextXAlignment = Enum.TextXAlignment.Left
+
+UITextSizeConstraint_4.Parent = Thirdtext
+UITextSizeConstraint_4.MaxTextSize = 40
+
+UIPadding_4.Parent = Thirdtext
+UIPadding_4.PaddingBottom = UDim.new(0, 10)
+UIPadding_4.PaddingLeft = UDim.new(0, 25)
+UIPadding_4.PaddingRight = UDim.new(0, 25)
+UIPadding_4.PaddingTop = UDim.new(0, 10)
+
+Thirdkey.Name = "Thirdkey"
+Thirdkey.Parent = Frame_4
+Thirdkey.Active = false
+Thirdkey.BackgroundColor3 = Color3.new(1, 1, 1)
+Thirdkey.BackgroundTransparency = 1
+Thirdkey.BorderColor3 = Color3.new(0, 0, 0)
+Thirdkey.BorderSizePixel = 0
+Thirdkey.Position = UDim2.new(0, 40, 0, 135)
+Thirdkey.Selectable = false
+Thirdkey.Size = UDim2.new(0, 260, 0, 45)
+Thirdkey.Visible = false
+Thirdkey.Font = Enum.Font.Unknown
+Thirdkey.Text = "[B]"
+Thirdkey.TextColor3 = Color3.new(1, 1, 1)
+Thirdkey.TextScaled = true
+Thirdkey.TextSize = 14
+Thirdkey.TextWrapped = true
+Thirdkey.TextXAlignment = Enum.TextXAlignment.Right
+
+UITextSizeConstraint_5.Parent = Thirdkey
+UITextSizeConstraint_5.MaxTextSize = 40
+
+UIPadding_5.Parent = Thirdkey
+UIPadding_5.PaddingBottom = UDim.new(0, 10)
+UIPadding_5.PaddingLeft = UDim.new(0, 25)
+UIPadding_5.PaddingRight = UDim.new(0, 25)
+UIPadding_5.PaddingTop = UDim.new(0, 10)
+
+Frame_6.Parent = Frame_4
+Frame_6.BackgroundColor3 = Color3.new(0.156863, 0.152941, 0.152941)
 Frame_6.BorderColor3 = Color3.new(0, 0, 0)
 Frame_6.BorderSizePixel = 0
-Frame_6.Position = UDim2.new(0.0350000001, 0, 0.0480000004, 0)
-Frame_6.Size = UDim2.new(0, 300, 0, 200)
+Frame_6.Position = UDim2.new(0, 230, 0, 103)
+Frame_6.Size = UDim2.new(0, 60, 0, 25)
 
-Frame_7.Parent = Frame_6
+Button_3.Name = "Button"
+Button_3.Parent = Frame_6
+Button_3.BackgroundColor3 = Color3.new(0.741176, 0.737255, 0.760784)
+Button_3.BackgroundTransparency = 1
+Button_3.BorderColor3 = Color3.new(0.105882, 0.164706, 0.207843)
+Button_3.BorderSizePixel = 0
+Button_3.Size = UDim2.new(1, 0, 1, 0)
+Button_3.ZIndex = 2
+Button_3.Font = Enum.Font.SourceSans
+Button_3.Text = " "
+Button_3.TextColor3 = Color3.new(0, 0, 0)
+Button_3.TextSize = 14
+
+Circle_3.Name = "Circle"
+Circle_3.Parent = Frame_6
+Circle_3.BackgroundColor3 = Color3.new(0.741176, 0.737255, 0.760784)
+Circle_3.BorderColor3 = Color3.new(0, 0, 0)
+Circle_3.BorderSizePixel = 0
+Circle_3.Position = UDim2.new(0, 0, -0.100000001, 0)
+Circle_3.Size = UDim2.new(0, 30, 0, 30)
+
+UICorner_10.Parent = Circle_3
+UICorner_10.CornerRadius = UDim.new(1, 0)
+
+UIScale_3.Parent = Frame_6
+UIScale_3.Scale = 0.800000011920929
+
+UICorner_11.Parent = Frame_6
+UICorner_11.CornerRadius = UDim.new(1, 0)
+
+Frame_7.Parent = Frame_4
 Frame_7.BackgroundColor3 = Color3.new(0.156863, 0.152941, 0.152941)
 Frame_7.BorderColor3 = Color3.new(0, 0, 0)
 Frame_7.BorderSizePixel = 0
-Frame_7.Position = UDim2.new(0, 230, 0, 13)
+Frame_7.Position = UDim2.new(0, 230, 0, 58)
 Frame_7.Size = UDim2.new(0, 60, 0, 25)
 
 Button_4.Name = "Button"
@@ -514,26 +539,24 @@ Circle_4.BorderSizePixel = 0
 Circle_4.Position = UDim2.new(0, 0, -0.100000001, 0)
 Circle_4.Size = UDim2.new(0, 30, 0, 30)
 
-UICorner_11.Parent = Circle_4
-UICorner_11.CornerRadius = UDim.new(1, 0)
+UICorner_12.Parent = Circle_4
+UICorner_12.CornerRadius = UDim.new(1, 0)
 
 UIScale_4.Parent = Frame_7
 UIScale_4.Scale = 0.800000011920929
 
-UICorner_12.Parent = Frame_7
-UICorner_12.CornerRadius = UDim.new(1, 0)
+UICorner_13.Parent = Frame_7
+UICorner_13.CornerRadius = UDim.new(1, 0)
 
-UICorner_13.Parent = Frame_6
-UICorner_13.CornerRadius = UDim.new(0, 15)
-
-TextLabel_4.Parent = Frame_6
+TextLabel_4.Parent = Frame_4
 TextLabel_4.BackgroundColor3 = Color3.new(0.894118, 0.819608, 0.0117647)
 TextLabel_4.BackgroundTransparency = 1
 TextLabel_4.BorderColor3 = Color3.new(0, 0, 0)
 TextLabel_4.BorderSizePixel = 0
+TextLabel_4.Position = UDim2.new(0, 0, 0, 45)
 TextLabel_4.Size = UDim2.new(0, 260, 0, 45)
-TextLabel_4.FontFace = Font.fromId(12187365364)
-TextLabel_4.Text = "HitSound"
+TextLabel_4.Font = Enum.Font.Unknown
+TextLabel_4.Text = "ESP"
 TextLabel_4.TextColor3 = Color3.new(1, 1, 1)
 TextLabel_4.TextScaled = true
 TextLabel_4.TextSize = 14
@@ -549,15 +572,65 @@ UIPadding_6.PaddingLeft = UDim.new(0, 25)
 UIPadding_6.PaddingRight = UDim.new(0, 25)
 UIPadding_6.PaddingTop = UDim.new(0, 10)
 
-TextLabel_5.Parent = Frame_6
+UICorner_14.Parent = Player
+UICorner_14.CornerRadius = UDim.new(0, 15)
+
+Frame_8.Parent = Player
+Frame_8.BackgroundColor3 = Color3.new(0.121569, 0.117647, 0.117647)
+Frame_8.BorderColor3 = Color3.new(0, 0, 0)
+Frame_8.BorderSizePixel = 0
+Frame_8.Position = UDim2.new(0.487500012, 0, 0.0479999781, 0)
+Frame_8.Size = UDim2.new(0, 300, 0, 350)
+
+UICorner_15.Parent = Frame_8
+UICorner_15.CornerRadius = UDim.new(0, 15)
+
+Frame_9.Parent = Frame_8
+Frame_9.BackgroundColor3 = Color3.new(0.156863, 0.152941, 0.152941)
+Frame_9.BorderColor3 = Color3.new(0, 0, 0)
+Frame_9.BorderSizePixel = 0
+Frame_9.Position = UDim2.new(0, 230, 0, 58)
+Frame_9.Size = UDim2.new(0, 60, 0, 25)
+
+Button_5.Name = "Button"
+Button_5.Parent = Frame_9
+Button_5.BackgroundColor3 = Color3.new(0.741176, 0.737255, 0.760784)
+Button_5.BackgroundTransparency = 1
+Button_5.BorderColor3 = Color3.new(0.105882, 0.164706, 0.207843)
+Button_5.BorderSizePixel = 0
+Button_5.Size = UDim2.new(1, 0, 1, 0)
+Button_5.ZIndex = 2
+Button_5.Font = Enum.Font.SourceSans
+Button_5.Text = " "
+Button_5.TextColor3 = Color3.new(0, 0, 0)
+Button_5.TextSize = 14
+
+Circle_5.Name = "Circle"
+Circle_5.Parent = Frame_9
+Circle_5.BackgroundColor3 = Color3.new(0.741176, 0.737255, 0.760784)
+Circle_5.BorderColor3 = Color3.new(0, 0, 0)
+Circle_5.BorderSizePixel = 0
+Circle_5.Position = UDim2.new(0, 0, -0.100000001, 0)
+Circle_5.Size = UDim2.new(0, 30, 0, 30)
+
+UICorner_16.Parent = Circle_5
+UICorner_16.CornerRadius = UDim.new(1, 0)
+
+UIScale_5.Parent = Frame_9
+UIScale_5.Scale = 0.800000011920929
+
+UICorner_17.Parent = Frame_9
+UICorner_17.CornerRadius = UDim.new(1, 0)
+
+TextLabel_5.Parent = Frame_8
 TextLabel_5.BackgroundColor3 = Color3.new(0.894118, 0.819608, 0.0117647)
 TextLabel_5.BackgroundTransparency = 1
 TextLabel_5.BorderColor3 = Color3.new(0, 0, 0)
 TextLabel_5.BorderSizePixel = 0
 TextLabel_5.Position = UDim2.new(0, 0, 0, 45)
 TextLabel_5.Size = UDim2.new(0, 260, 0, 45)
-TextLabel_5.FontFace = Font.fromId(12187365364)
-TextLabel_5.Text = "ThirdPerson"
+TextLabel_5.Font = Enum.Font.Unknown
+TextLabel_5.Text = "BunnyHop"
 TextLabel_5.TextColor3 = Color3.new(1, 1, 1)
 TextLabel_5.TextScaled = true
 TextLabel_5.TextSize = 14
@@ -573,111 +646,7 @@ UIPadding_7.PaddingLeft = UDim.new(0, 25)
 UIPadding_7.PaddingRight = UDim.new(0, 25)
 UIPadding_7.PaddingTop = UDim.new(0, 10)
 
-Thirdtext.Name = "Thirdtext"
-Thirdtext.Parent = Frame_6
-Thirdtext.BackgroundColor3 = Color3.new(1, 1, 1)
-Thirdtext.BackgroundTransparency = 1
-Thirdtext.BorderColor3 = Color3.new(0, 0, 0)
-Thirdtext.BorderSizePixel = 0
-Thirdtext.Position = UDim2.new(0, 0, 0, 90)
-Thirdtext.Size = UDim2.new(0, 260, 0, 45)
-Thirdtext.Visible = false
-Thirdtext.FontFace = Font.fromId(12187365364)
-Thirdtext.Text = "Keybind"
-Thirdtext.TextColor3 = Color3.new(1, 1, 1)
-Thirdtext.TextScaled = true
-Thirdtext.TextSize = 14
-Thirdtext.TextWrapped = true
-Thirdtext.TextXAlignment = Enum.TextXAlignment.Left
-
-UITextSizeConstraint_8.Parent = Thirdtext
-UITextSizeConstraint_8.MaxTextSize = 40
-
-UIPadding_8.Parent = Thirdtext
-UIPadding_8.PaddingBottom = UDim.new(0, 10)
-UIPadding_8.PaddingLeft = UDim.new(0, 25)
-UIPadding_8.PaddingRight = UDim.new(0, 25)
-UIPadding_8.PaddingTop = UDim.new(0, 10)
-
-Thirdkey.Name = "Thirdkey"
-Thirdkey.Parent = Frame_6
-Thirdkey.Active = false
-Thirdkey.BackgroundColor3 = Color3.new(1, 1, 1)
-Thirdkey.BackgroundTransparency = 1
-Thirdkey.BorderColor3 = Color3.new(0, 0, 0)
-Thirdkey.BorderSizePixel = 0
-Thirdkey.Position = UDim2.new(0, 40, 0, 90)
-Thirdkey.Selectable = false
-Thirdkey.Size = UDim2.new(0, 260, 0, 45)
-Thirdkey.Visible = false
-Thirdkey.FontFace = Font.fromId(12187365364)
-Thirdkey.Text = "[B]"
-Thirdkey.TextColor3 = Color3.new(1, 1, 1)
-Thirdkey.TextScaled = true
-Thirdkey.TextSize = 14
-Thirdkey.TextWrapped = true
-Thirdkey.TextXAlignment = Enum.TextXAlignment.Right
-
-UITextSizeConstraint_9.Parent = Thirdkey
-UITextSizeConstraint_9.MaxTextSize = 40
-
-UIPadding_9.Parent = Thirdkey
-UIPadding_9.PaddingBottom = UDim.new(0, 10)
-UIPadding_9.PaddingLeft = UDim.new(0, 25)
-UIPadding_9.PaddingRight = UDim.new(0, 25)
-UIPadding_9.PaddingTop = UDim.new(0, 10)
-
-Frame_8.Parent = Frame_6
-Frame_8.BackgroundColor3 = Color3.new(0.156863, 0.152941, 0.152941)
-Frame_8.BorderColor3 = Color3.new(0, 0, 0)
-Frame_8.BorderSizePixel = 0
-Frame_8.Position = UDim2.new(0, 230, 0, 58)
-Frame_8.Size = UDim2.new(0, 60, 0, 25)
-
-Button_5.Name = "Button"
-Button_5.Parent = Frame_8
-Button_5.BackgroundColor3 = Color3.new(0.741176, 0.737255, 0.760784)
-Button_5.BackgroundTransparency = 1
-Button_5.BorderColor3 = Color3.new(0.105882, 0.164706, 0.207843)
-Button_5.BorderSizePixel = 0
-Button_5.Size = UDim2.new(1, 0, 1, 0)
-Button_5.ZIndex = 2
-Button_5.Font = Enum.Font.SourceSans
-Button_5.Text = " "
-Button_5.TextColor3 = Color3.new(0, 0, 0)
-Button_5.TextSize = 14
-
-Circle_5.Name = "Circle"
-Circle_5.Parent = Frame_8
-Circle_5.BackgroundColor3 = Color3.new(0.741176, 0.737255, 0.760784)
-Circle_5.BorderColor3 = Color3.new(0, 0, 0)
-Circle_5.BorderSizePixel = 0
-Circle_5.Position = UDim2.new(0, 0, -0.100000001, 0)
-Circle_5.Size = UDim2.new(0, 30, 0, 30)
-
-UICorner_14.Parent = Circle_5
-UICorner_14.CornerRadius = UDim.new(1, 0)
-
-UIScale_5.Parent = Frame_8
-UIScale_5.Scale = 0.800000011920929
-
-UICorner_15.Parent = Frame_8
-UICorner_15.CornerRadius = UDim.new(1, 0)
-
-UICorner_16.Parent = Player
-UICorner_16.CornerRadius = UDim.new(0, 15)
-
-Frame_9.Parent = Player
-Frame_9.BackgroundColor3 = Color3.new(0.121569, 0.117647, 0.117647)
-Frame_9.BorderColor3 = Color3.new(0, 0, 0)
-Frame_9.BorderSizePixel = 0
-Frame_9.Position = UDim2.new(0.487500012, 0, 0.0479999781, 0)
-Frame_9.Size = UDim2.new(0, 300, 0, 350)
-
-UICorner_17.Parent = Frame_9
-UICorner_17.CornerRadius = UDim.new(0, 15)
-
-Frame_10.Parent = Frame_9
+Frame_10.Parent = Frame_8
 Frame_10.BackgroundColor3 = Color3.new(0.156863, 0.152941, 0.152941)
 Frame_10.BorderColor3 = Color3.new(0, 0, 0)
 Frame_10.BorderSizePixel = 0
@@ -714,38 +683,56 @@ UIScale_6.Scale = 0.800000011920929
 UICorner_19.Parent = Frame_10
 UICorner_19.CornerRadius = UDim.new(1, 0)
 
-TextLabel_6.Parent = Frame_9
+TextLabel_6.Parent = Frame_8
 TextLabel_6.BackgroundColor3 = Color3.new(0.894118, 0.819608, 0.0117647)
 TextLabel_6.BackgroundTransparency = 1
 TextLabel_6.BorderColor3 = Color3.new(0, 0, 0)
 TextLabel_6.BorderSizePixel = 0
 TextLabel_6.Size = UDim2.new(0, 260, 0, 45)
-TextLabel_6.FontFace = Font.fromId(12187365364)
-TextLabel_6.Text = "BunnyHop"
-TextLabel_6.TextColor3 = Color3.new(1, 1, 1)
+TextLabel_6.Font = Enum.Font.Unknown
+TextLabel_6.Text = "WalkSpeed"
+TextLabel_6.TextColor3 = Color3.new(0.894118, 0.819608, 0.0117647)
 TextLabel_6.TextScaled = true
 TextLabel_6.TextSize = 14
 TextLabel_6.TextWrapped = true
 TextLabel_6.TextXAlignment = Enum.TextXAlignment.Left
 
-UITextSizeConstraint_10.Parent = TextLabel_6
-UITextSizeConstraint_10.MaxTextSize = 40
+UITextSizeConstraint_8.Parent = TextLabel_6
+UITextSizeConstraint_8.MaxTextSize = 40
 
-UIPadding_10.Parent = TextLabel_6
-UIPadding_10.PaddingBottom = UDim.new(0, 10)
-UIPadding_10.PaddingLeft = UDim.new(0, 25)
-UIPadding_10.PaddingRight = UDim.new(0, 25)
-UIPadding_10.PaddingTop = UDim.new(0, 10)
+UIPadding_8.Parent = TextLabel_6
+UIPadding_8.PaddingBottom = UDim.new(0, 10)
+UIPadding_8.PaddingLeft = UDim.new(0, 25)
+UIPadding_8.PaddingRight = UDim.new(0, 25)
+UIPadding_8.PaddingTop = UDim.new(0, 10)
 
-Frame_11.Parent = Frame_9
-Frame_11.BackgroundColor3 = Color3.new(0.156863, 0.152941, 0.152941)
+Misc.Name = "Misc"
+Misc.Parent = Color
+Misc.AnchorPoint = Vector2.new(0.5, 0.5)
+Misc.BackgroundColor3 = Color3.new(0.447059, 0.67451, 0.0784314)
+Misc.BackgroundTransparency = 1
+Misc.BorderColor3 = Color3.new(0, 0, 0)
+Misc.BorderSizePixel = 0
+Misc.Position = UDim2.new(0.5, 0, 0.5, 0)
+Misc.Size = UDim2.new(1, 0, 1, 0)
+Misc.Visible = false
+
+Frame_11.Parent = Misc
+Frame_11.BackgroundColor3 = Color3.new(0.121569, 0.117647, 0.117647)
 Frame_11.BorderColor3 = Color3.new(0, 0, 0)
 Frame_11.BorderSizePixel = 0
-Frame_11.Position = UDim2.new(0, 230, 0, 58)
-Frame_11.Size = UDim2.new(0, 60, 0, 25)
+Frame_11.Position = UDim2.new(0.0350000001, 0, 0.0480000004, 0)
+Frame_11.Size = UDim2.new(0, 300, 0, 200)
+
+Frame_12.Parent = Frame_11
+Frame_12.BackgroundColor3 = Color3.new(0.156863, 0.152941, 0.152941)
+Frame_12.BorderColor3 = Color3.new(0, 0, 0)
+Frame_12.BorderSizePixel = 0
+Frame_12.Position = UDim2.new(0, 230, 0, 13)
+Frame_12.Size = UDim2.new(0, 60, 0, 25)
 
 Button_7.Name = "Button"
-Button_7.Parent = Frame_11
+Button_7.Parent = Frame_12
 Button_7.BackgroundColor3 = Color3.new(0.741176, 0.737255, 0.760784)
 Button_7.BackgroundTransparency = 1
 Button_7.BorderColor3 = Color3.new(0.105882, 0.164706, 0.207843)
@@ -758,7 +745,7 @@ Button_7.TextColor3 = Color3.new(0, 0, 0)
 Button_7.TextSize = 14
 
 Circle_7.Name = "Circle"
-Circle_7.Parent = Frame_11
+Circle_7.Parent = Frame_12
 Circle_7.BackgroundColor3 = Color3.new(0.741176, 0.737255, 0.760784)
 Circle_7.BorderColor3 = Color3.new(0, 0, 0)
 Circle_7.BorderSizePixel = 0
@@ -768,62 +755,61 @@ Circle_7.Size = UDim2.new(0, 30, 0, 30)
 UICorner_20.Parent = Circle_7
 UICorner_20.CornerRadius = UDim.new(1, 0)
 
-UIScale_7.Parent = Frame_11
+UIScale_7.Parent = Frame_12
 UIScale_7.Scale = 0.800000011920929
 
-UICorner_21.Parent = Frame_11
+UICorner_21.Parent = Frame_12
 UICorner_21.CornerRadius = UDim.new(1, 0)
 
-TextLabel_7.Parent = Frame_9
+UICorner_22.Parent = Frame_11
+UICorner_22.CornerRadius = UDim.new(0, 15)
+
+TextLabel_7.Parent = Frame_11
 TextLabel_7.BackgroundColor3 = Color3.new(0.894118, 0.819608, 0.0117647)
 TextLabel_7.BackgroundTransparency = 1
 TextLabel_7.BorderColor3 = Color3.new(0, 0, 0)
 TextLabel_7.BorderSizePixel = 0
-TextLabel_7.Position = UDim2.new(0, 0, 0, 45)
 TextLabel_7.Size = UDim2.new(0, 260, 0, 45)
-TextLabel_7.FontFace = Font.fromId(12187365364)
-TextLabel_7.Text = "WalkSpeed"
-TextLabel_7.TextColor3 = Color3.new(0.894118, 0.819608, 0.0117647)
+TextLabel_7.Font = Enum.Font.Unknown
+TextLabel_7.Text = "ChatSpam"
+TextLabel_7.TextColor3 = Color3.new(1, 1, 1)
 TextLabel_7.TextScaled = true
 TextLabel_7.TextSize = 14
 TextLabel_7.TextWrapped = true
 TextLabel_7.TextXAlignment = Enum.TextXAlignment.Left
 
-UITextSizeConstraint_11.Parent = TextLabel_7
-UITextSizeConstraint_11.MaxTextSize = 40
+UITextSizeConstraint_9.Parent = TextLabel_7
+UITextSizeConstraint_9.MaxTextSize = 40
 
-UIPadding_11.Parent = TextLabel_7
-UIPadding_11.PaddingBottom = UDim.new(0, 10)
-UIPadding_11.PaddingLeft = UDim.new(0, 25)
-UIPadding_11.PaddingRight = UDim.new(0, 25)
-UIPadding_11.PaddingTop = UDim.new(0, 10)
+UIPadding_9.Parent = TextLabel_7
+UIPadding_9.PaddingBottom = UDim.new(0, 10)
+UIPadding_9.PaddingLeft = UDim.new(0, 25)
+UIPadding_9.PaddingRight = UDim.new(0, 25)
+UIPadding_9.PaddingTop = UDim.new(0, 10)
 
-Misc.Name = "Misc"
-Misc.Parent = Color
-Misc.AnchorPoint = Vector2.new(0.5, 0.5)
-Misc.BackgroundColor3 = Color3.new(0.447059, 0.67451, 0.0784314)
-Misc.BackgroundTransparency = 1
-Misc.BorderColor3 = Color3.new(0, 0, 0)
-Misc.BorderSizePixel = 0
-Misc.Position = UDim2.new(0.5, 0, 0.5, 0)
-Misc.Size = UDim2.new(1, 0, 1, 0)
+UICorner_23.Parent = Misc
+UICorner_23.CornerRadius = UDim.new(0, 15)
 
-Frame_12.Parent = Misc
-Frame_12.BackgroundColor3 = Color3.new(0.121569, 0.117647, 0.117647)
-Frame_12.BorderColor3 = Color3.new(0, 0, 0)
-Frame_12.BorderSizePixel = 0
-Frame_12.Position = UDim2.new(0.0350000001, 0, 0.0480000004, 0)
-Frame_12.Size = UDim2.new(0, 300, 0, 200)
-
-Frame_13.Parent = Frame_12
-Frame_13.BackgroundColor3 = Color3.new(0.156863, 0.152941, 0.152941)
+Frame_13.Parent = Misc
+Frame_13.BackgroundColor3 = Color3.new(0.121569, 0.117647, 0.117647)
 Frame_13.BorderColor3 = Color3.new(0, 0, 0)
 Frame_13.BorderSizePixel = 0
-Frame_13.Position = UDim2.new(0, 230, 0, 13)
-Frame_13.Size = UDim2.new(0, 60, 0, 25)
+Frame_13.Position = UDim2.new(0.487500012, 0, 0.0479999781, 0)
+Frame_13.Size = UDim2.new(0, 300, 0, 350)
+
+UICorner_24.Parent = Frame_13
+UICorner_24.CornerRadius = UDim.new(0, 15)
+
+hit.Name = "hit"
+hit.Parent = Frame_13
+hit.BackgroundColor3 = Color3.new(0.156863, 0.152941, 0.152941)
+hit.BorderColor3 = Color3.new(0, 0, 0)
+hit.BorderSizePixel = 0
+hit.Position = UDim2.new(0, 230, 0, 13)
+hit.Size = UDim2.new(0, 60, 0, 25)
 
 Button_8.Name = "Button"
-Button_8.Parent = Frame_13
+Button_8.Parent = hit
 Button_8.BackgroundColor3 = Color3.new(0.741176, 0.737255, 0.760784)
 Button_8.BackgroundTransparency = 1
 Button_8.BorderColor3 = Color3.new(0.105882, 0.164706, 0.207843)
@@ -836,70 +822,55 @@ Button_8.TextColor3 = Color3.new(0, 0, 0)
 Button_8.TextSize = 14
 
 Circle_8.Name = "Circle"
-Circle_8.Parent = Frame_13
+Circle_8.Parent = hit
 Circle_8.BackgroundColor3 = Color3.new(0.741176, 0.737255, 0.760784)
 Circle_8.BorderColor3 = Color3.new(0, 0, 0)
 Circle_8.BorderSizePixel = 0
 Circle_8.Position = UDim2.new(0, 0, -0.100000001, 0)
 Circle_8.Size = UDim2.new(0, 30, 0, 30)
 
-UICorner_22.Parent = Circle_8
-UICorner_22.CornerRadius = UDim.new(1, 0)
+UICorner_25.Parent = Circle_8
+UICorner_25.CornerRadius = UDim.new(1, 0)
 
-UIScale_8.Parent = Frame_13
+UIScale_8.Parent = hit
 UIScale_8.Scale = 0.800000011920929
 
-UICorner_23.Parent = Frame_13
-UICorner_23.CornerRadius = UDim.new(1, 0)
+UICorner_26.Parent = hit
+UICorner_26.CornerRadius = UDim.new(1, 0)
 
-UICorner_24.Parent = Frame_12
-UICorner_24.CornerRadius = UDim.new(0, 15)
-
-TextLabel_8.Parent = Frame_12
+TextLabel_8.Parent = Frame_13
 TextLabel_8.BackgroundColor3 = Color3.new(0.894118, 0.819608, 0.0117647)
 TextLabel_8.BackgroundTransparency = 1
 TextLabel_8.BorderColor3 = Color3.new(0, 0, 0)
 TextLabel_8.BorderSizePixel = 0
 TextLabel_8.Size = UDim2.new(0, 260, 0, 45)
-TextLabel_8.FontFace = Font.fromId(12187365364)
-TextLabel_8.Text = "ChatSpam"
+TextLabel_8.Font = Enum.Font.Unknown
+TextLabel_8.Text = "HitSound"
 TextLabel_8.TextColor3 = Color3.new(1, 1, 1)
 TextLabel_8.TextScaled = true
 TextLabel_8.TextSize = 14
 TextLabel_8.TextWrapped = true
 TextLabel_8.TextXAlignment = Enum.TextXAlignment.Left
 
-UITextSizeConstraint_12.Parent = TextLabel_8
-UITextSizeConstraint_12.MaxTextSize = 40
+UITextSizeConstraint_10.Parent = TextLabel_8
+UITextSizeConstraint_10.MaxTextSize = 40
 
-UIPadding_12.Parent = TextLabel_8
-UIPadding_12.PaddingBottom = UDim.new(0, 10)
-UIPadding_12.PaddingLeft = UDim.new(0, 25)
-UIPadding_12.PaddingRight = UDim.new(0, 25)
-UIPadding_12.PaddingTop = UDim.new(0, 10)
+UIPadding_10.Parent = TextLabel_8
+UIPadding_10.PaddingBottom = UDim.new(0, 10)
+UIPadding_10.PaddingLeft = UDim.new(0, 25)
+UIPadding_10.PaddingRight = UDim.new(0, 25)
+UIPadding_10.PaddingTop = UDim.new(0, 10)
 
-UICorner_25.Parent = Misc
-UICorner_25.CornerRadius = UDim.new(0, 15)
-
-Frame_14.Parent = Misc
-Frame_14.BackgroundColor3 = Color3.new(0.121569, 0.117647, 0.117647)
-Frame_14.BorderColor3 = Color3.new(0, 0, 0)
-Frame_14.BorderSizePixel = 0
-Frame_14.Position = UDim2.new(0.487500012, 0, 0.0479999781, 0)
-Frame_14.Size = UDim2.new(0, 300, 0, 350)
-
-UICorner_26.Parent = Frame_14
-UICorner_26.CornerRadius = UDim.new(0, 15)
-
-Frame_15.Parent = Frame_14
-Frame_15.BackgroundColor3 = Color3.new(0.156863, 0.152941, 0.152941)
-Frame_15.BorderColor3 = Color3.new(0, 0, 0)
-Frame_15.BorderSizePixel = 0
-Frame_15.Position = UDim2.new(0, 230, 0, 13)
-Frame_15.Size = UDim2.new(0, 60, 0, 25)
+spread.Name = "spread"
+spread.Parent = Frame_13
+spread.BackgroundColor3 = Color3.new(0.156863, 0.152941, 0.152941)
+spread.BorderColor3 = Color3.new(0, 0, 0)
+spread.BorderSizePixel = 0
+spread.Position = UDim2.new(0, 230, 0, 58)
+spread.Size = UDim2.new(0, 60, 0, 25)
 
 Button_9.Name = "Button"
-Button_9.Parent = Frame_15
+Button_9.Parent = spread
 Button_9.BackgroundColor3 = Color3.new(0.741176, 0.737255, 0.760784)
 Button_9.BackgroundTransparency = 1
 Button_9.BorderColor3 = Color3.new(0.105882, 0.164706, 0.207843)
@@ -912,7 +883,7 @@ Button_9.TextColor3 = Color3.new(0, 0, 0)
 Button_9.TextSize = 14
 
 Circle_9.Name = "Circle"
-Circle_9.Parent = Frame_15
+Circle_9.Parent = spread
 Circle_9.BackgroundColor3 = Color3.new(0.741176, 0.737255, 0.760784)
 Circle_9.BorderColor3 = Color3.new(0, 0, 0)
 Circle_9.BorderSizePixel = 0
@@ -922,44 +893,70 @@ Circle_9.Size = UDim2.new(0, 30, 0, 30)
 UICorner_27.Parent = Circle_9
 UICorner_27.CornerRadius = UDim.new(1, 0)
 
-UIScale_9.Parent = Frame_15
+UIScale_9.Parent = spread
 UIScale_9.Scale = 0.800000011920929
 
-UICorner_28.Parent = Frame_15
+UICorner_28.Parent = spread
 UICorner_28.CornerRadius = UDim.new(1, 0)
 
-TextLabel_9.Parent = Frame_14
+TextLabel_9.Parent = Frame_13
 TextLabel_9.BackgroundColor3 = Color3.new(0.894118, 0.819608, 0.0117647)
 TextLabel_9.BackgroundTransparency = 1
 TextLabel_9.BorderColor3 = Color3.new(0, 0, 0)
 TextLabel_9.BorderSizePixel = 0
+TextLabel_9.Position = UDim2.new(0, 0, 0, 45)
 TextLabel_9.Size = UDim2.new(0, 260, 0, 45)
-TextLabel_9.FontFace = Font.fromId(12187365364)
-TextLabel_9.Text = "BunnyHop"
+TextLabel_9.Font = Enum.Font.Unknown
+TextLabel_9.Text = "NoSpread"
 TextLabel_9.TextColor3 = Color3.new(1, 1, 1)
 TextLabel_9.TextScaled = true
 TextLabel_9.TextSize = 14
 TextLabel_9.TextWrapped = true
 TextLabel_9.TextXAlignment = Enum.TextXAlignment.Left
 
-UITextSizeConstraint_13.Parent = TextLabel_9
-UITextSizeConstraint_13.MaxTextSize = 40
+UITextSizeConstraint_11.Parent = TextLabel_9
+UITextSizeConstraint_11.MaxTextSize = 40
 
-UIPadding_13.Parent = TextLabel_9
-UIPadding_13.PaddingBottom = UDim.new(0, 10)
-UIPadding_13.PaddingLeft = UDim.new(0, 25)
-UIPadding_13.PaddingRight = UDim.new(0, 25)
-UIPadding_13.PaddingTop = UDim.new(0, 10)
+UIPadding_11.Parent = TextLabel_9
+UIPadding_11.PaddingBottom = UDim.new(0, 10)
+UIPadding_11.PaddingLeft = UDim.new(0, 25)
+UIPadding_11.PaddingRight = UDim.new(0, 25)
+UIPadding_11.PaddingTop = UDim.new(0, 10)
 
-Frame_16.Parent = Frame_14
-Frame_16.BackgroundColor3 = Color3.new(0.156863, 0.152941, 0.152941)
-Frame_16.BorderColor3 = Color3.new(0, 0, 0)
-Frame_16.BorderSizePixel = 0
-Frame_16.Position = UDim2.new(0, 230, 0, 58)
-Frame_16.Size = UDim2.new(0, 60, 0, 25)
+TextLabel_10.Parent = Frame_13
+TextLabel_10.BackgroundColor3 = Color3.new(0.894118, 0.819608, 0.0117647)
+TextLabel_10.BackgroundTransparency = 1
+TextLabel_10.BorderColor3 = Color3.new(0, 0, 0)
+TextLabel_10.BorderSizePixel = 0
+TextLabel_10.Position = UDim2.new(0, 0, 0, 225)
+TextLabel_10.Size = UDim2.new(0, 260, 0, 45)
+TextLabel_10.Font = Enum.Font.Unknown
+TextLabel_10.Text = "Zoom"
+TextLabel_10.TextColor3 = Color3.new(1, 1, 1)
+TextLabel_10.TextScaled = true
+TextLabel_10.TextSize = 14
+TextLabel_10.TextWrapped = true
+TextLabel_10.TextXAlignment = Enum.TextXAlignment.Left
+
+UITextSizeConstraint_12.Parent = TextLabel_10
+UITextSizeConstraint_12.MaxTextSize = 40
+
+UIPadding_12.Parent = TextLabel_10
+UIPadding_12.PaddingBottom = UDim.new(0, 10)
+UIPadding_12.PaddingLeft = UDim.new(0, 25)
+UIPadding_12.PaddingRight = UDim.new(0, 25)
+UIPadding_12.PaddingTop = UDim.new(0, 10)
+
+zoom.Name = "zoom"
+zoom.Parent = Frame_13
+zoom.BackgroundColor3 = Color3.new(0.156863, 0.152941, 0.152941)
+zoom.BorderColor3 = Color3.new(0, 0, 0)
+zoom.BorderSizePixel = 0
+zoom.Position = UDim2.new(0, 230, 0, 238)
+zoom.Size = UDim2.new(0, 60, 0, 25)
 
 Button_10.Name = "Button"
-Button_10.Parent = Frame_16
+Button_10.Parent = zoom
 Button_10.BackgroundColor3 = Color3.new(0.741176, 0.737255, 0.760784)
 Button_10.BackgroundTransparency = 1
 Button_10.BorderColor3 = Color3.new(0.105882, 0.164706, 0.207843)
@@ -972,7 +969,7 @@ Button_10.TextColor3 = Color3.new(0, 0, 0)
 Button_10.TextSize = 14
 
 Circle_10.Name = "Circle"
-Circle_10.Parent = Frame_16
+Circle_10.Parent = zoom
 Circle_10.BackgroundColor3 = Color3.new(0.741176, 0.737255, 0.760784)
 Circle_10.BorderColor3 = Color3.new(0, 0, 0)
 Circle_10.BorderSizePixel = 0
@@ -982,35 +979,214 @@ Circle_10.Size = UDim2.new(0, 30, 0, 30)
 UICorner_29.Parent = Circle_10
 UICorner_29.CornerRadius = UDim.new(1, 0)
 
-UIScale_10.Parent = Frame_16
+UIScale_10.Parent = zoom
 UIScale_10.Scale = 0.800000011920929
 
-UICorner_30.Parent = Frame_16
+UICorner_30.Parent = zoom
 UICorner_30.CornerRadius = UDim.new(1, 0)
 
-TextLabel_10.Parent = Frame_14
-TextLabel_10.BackgroundColor3 = Color3.new(0.894118, 0.819608, 0.0117647)
-TextLabel_10.BackgroundTransparency = 1
-TextLabel_10.BorderColor3 = Color3.new(0, 0, 0)
-TextLabel_10.BorderSizePixel = 0
-TextLabel_10.Position = UDim2.new(0, 0, 0, 45)
-TextLabel_10.Size = UDim2.new(0, 260, 0, 45)
-TextLabel_10.FontFace = Font.fromId(12187365364)
-TextLabel_10.Text = "WalkSpeed"
-TextLabel_10.TextColor3 = Color3.new(0.894118, 0.819608, 0.0117647)
-TextLabel_10.TextScaled = true
-TextLabel_10.TextSize = 14
-TextLabel_10.TextWrapped = true
-TextLabel_10.TextXAlignment = Enum.TextXAlignment.Left
+Zoomkey.Name = "Zoomkey"
+Zoomkey.Parent = Frame_13
+Zoomkey.Active = false
+Zoomkey.BackgroundColor3 = Color3.new(1, 1, 1)
+Zoomkey.BackgroundTransparency = 1
+Zoomkey.BorderColor3 = Color3.new(0, 0, 0)
+Zoomkey.BorderSizePixel = 0
+Zoomkey.Position = UDim2.new(0, 40, 0, 270)
+Zoomkey.Selectable = false
+Zoomkey.Size = UDim2.new(0, 260, 0, 45)
+Zoomkey.Visible = false
+Zoomkey.Font = Enum.Font.Unknown
+Zoomkey.Text = "[Z]"
+Zoomkey.TextColor3 = Color3.new(1, 1, 1)
+Zoomkey.TextScaled = true
+Zoomkey.TextSize = 14
+Zoomkey.TextWrapped = true
+Zoomkey.TextXAlignment = Enum.TextXAlignment.Right
 
-UITextSizeConstraint_14.Parent = TextLabel_10
+UITextSizeConstraint_13.Parent = Zoomkey
+UITextSizeConstraint_13.MaxTextSize = 40
+
+UIPadding_13.Parent = Zoomkey
+UIPadding_13.PaddingBottom = UDim.new(0, 10)
+UIPadding_13.PaddingLeft = UDim.new(0, 25)
+UIPadding_13.PaddingRight = UDim.new(0, 25)
+UIPadding_13.PaddingTop = UDim.new(0, 10)
+
+ZoomkeyText.Name = "ZoomkeyText"
+ZoomkeyText.Parent = Frame_13
+ZoomkeyText.BackgroundColor3 = Color3.new(1, 1, 1)
+ZoomkeyText.BackgroundTransparency = 1
+ZoomkeyText.BorderColor3 = Color3.new(0, 0, 0)
+ZoomkeyText.BorderSizePixel = 0
+ZoomkeyText.Position = UDim2.new(0, 0, 0, 270)
+ZoomkeyText.Size = UDim2.new(0, 260, 0, 45)
+ZoomkeyText.Visible = false
+ZoomkeyText.Font = Enum.Font.Unknown
+ZoomkeyText.Text = "Keybind"
+ZoomkeyText.TextColor3 = Color3.new(1, 1, 1)
+ZoomkeyText.TextScaled = true
+ZoomkeyText.TextSize = 14
+ZoomkeyText.TextWrapped = true
+ZoomkeyText.TextXAlignment = Enum.TextXAlignment.Left
+
+UITextSizeConstraint_14.Parent = ZoomkeyText
 UITextSizeConstraint_14.MaxTextSize = 40
 
-UIPadding_14.Parent = TextLabel_10
+UIPadding_14.Parent = ZoomkeyText
 UIPadding_14.PaddingBottom = UDim.new(0, 10)
 UIPadding_14.PaddingLeft = UDim.new(0, 25)
 UIPadding_14.PaddingRight = UDim.new(0, 25)
 UIPadding_14.PaddingTop = UDim.new(0, 10)
+
+TextLabel_11.Parent = Frame_13
+TextLabel_11.BackgroundColor3 = Color3.new(0.894118, 0.819608, 0.0117647)
+TextLabel_11.BackgroundTransparency = 1
+TextLabel_11.BorderColor3 = Color3.new(0, 0, 0)
+TextLabel_11.BorderSizePixel = 0
+TextLabel_11.Position = UDim2.new(0, 0, 0, 90)
+TextLabel_11.Size = UDim2.new(0, 260, 0, 45)
+TextLabel_11.Font = Enum.Font.Unknown
+TextLabel_11.Text = "Tracers (broken)"
+TextLabel_11.TextColor3 = Color3.new(0.407843, 0.407843, 0.407843)
+TextLabel_11.TextScaled = true
+TextLabel_11.TextSize = 14
+TextLabel_11.TextWrapped = true
+TextLabel_11.TextXAlignment = Enum.TextXAlignment.Left
+
+UITextSizeConstraint_15.Parent = TextLabel_11
+UITextSizeConstraint_15.MaxTextSize = 40
+
+UIPadding_15.Parent = TextLabel_11
+UIPadding_15.PaddingBottom = UDim.new(0, 10)
+UIPadding_15.PaddingLeft = UDim.new(0, 25)
+UIPadding_15.PaddingRight = UDim.new(0, 25)
+UIPadding_15.PaddingTop = UDim.new(0, 10)
+
+screen.Name = "screen"
+screen.Parent = Frame_13
+screen.BackgroundColor3 = Color3.new(0.156863, 0.152941, 0.152941)
+screen.BorderColor3 = Color3.new(0, 0, 0)
+screen.BorderSizePixel = 0
+screen.Position = UDim2.new(0, 230, 0, 148)
+screen.Size = UDim2.new(0, 60, 0, 25)
+
+Button_11.Name = "Button"
+Button_11.Parent = screen
+Button_11.BackgroundColor3 = Color3.new(0.741176, 0.737255, 0.760784)
+Button_11.BackgroundTransparency = 1
+Button_11.BorderColor3 = Color3.new(0.105882, 0.164706, 0.207843)
+Button_11.BorderSizePixel = 0
+Button_11.Size = UDim2.new(1, 0, 1, 0)
+Button_11.ZIndex = 2
+Button_11.Font = Enum.Font.SourceSans
+Button_11.Text = " "
+Button_11.TextColor3 = Color3.new(0, 0, 0)
+Button_11.TextSize = 14
+
+Circle_11.Name = "Circle"
+Circle_11.Parent = screen
+Circle_11.BackgroundColor3 = Color3.new(0.741176, 0.737255, 0.760784)
+Circle_11.BorderColor3 = Color3.new(0, 0, 0)
+Circle_11.BorderSizePixel = 0
+Circle_11.Position = UDim2.new(0, 0, -0.100000001, 0)
+Circle_11.Size = UDim2.new(0, 30, 0, 30)
+
+UICorner_31.Parent = Circle_11
+UICorner_31.CornerRadius = UDim.new(1, 0)
+
+UIScale_11.Parent = screen
+UIScale_11.Scale = 0.800000011920929
+
+UICorner_32.Parent = screen
+UICorner_32.CornerRadius = UDim.new(1, 0)
+
+TextLabel_12.Parent = Frame_13
+TextLabel_12.BackgroundColor3 = Color3.new(0.894118, 0.819608, 0.0117647)
+TextLabel_12.BackgroundTransparency = 1
+TextLabel_12.BorderColor3 = Color3.new(0, 0, 0)
+TextLabel_12.BorderSizePixel = 0
+TextLabel_12.Position = UDim2.new(0, 0, 0, 135)
+TextLabel_12.Size = UDim2.new(0, 260, 0, 45)
+TextLabel_12.Font = Enum.Font.Unknown
+TextLabel_12.Text = "ScreenEffects"
+TextLabel_12.TextColor3 = Color3.new(1, 1, 1)
+TextLabel_12.TextScaled = true
+TextLabel_12.TextSize = 14
+TextLabel_12.TextWrapped = true
+TextLabel_12.TextXAlignment = Enum.TextXAlignment.Left
+
+UITextSizeConstraint_16.Parent = TextLabel_12
+UITextSizeConstraint_16.MaxTextSize = 40
+
+UIPadding_16.Parent = TextLabel_12
+UIPadding_16.PaddingBottom = UDim.new(0, 10)
+UIPadding_16.PaddingLeft = UDim.new(0, 25)
+UIPadding_16.PaddingRight = UDim.new(0, 25)
+UIPadding_16.PaddingTop = UDim.new(0, 10)
+
+_2.Name = "2"
+_2.Parent = Frame_13
+_2.BackgroundColor3 = Color3.new(0.894118, 0.819608, 0.0117647)
+_2.BackgroundTransparency = 1
+_2.BorderColor3 = Color3.new(0, 0, 0)
+_2.BorderSizePixel = 0
+_2.Position = UDim2.new(0, 0, 0, 180)
+_2.Size = UDim2.new(0, 260, 0, 45)
+_2.Font = Enum.Font.Unknown
+_2.Text = "Fullbright"
+_2.TextColor3 = Color3.new(1, 1, 1)
+_2.TextScaled = true
+_2.TextSize = 14
+_2.TextWrapped = true
+_2.TextXAlignment = Enum.TextXAlignment.Left
+
+UITextSizeConstraint_17.Parent = _2
+UITextSizeConstraint_17.MaxTextSize = 40
+
+UIPadding_17.Parent = _2
+UIPadding_17.PaddingBottom = UDim.new(0, 10)
+UIPadding_17.PaddingLeft = UDim.new(0, 25)
+UIPadding_17.PaddingRight = UDim.new(0, 25)
+UIPadding_17.PaddingTop = UDim.new(0, 10)
+
+bright.Name = "bright"
+bright.Parent = Frame_13
+bright.BackgroundColor3 = Color3.new(0.156863, 0.152941, 0.152941)
+bright.BorderColor3 = Color3.new(0, 0, 0)
+bright.BorderSizePixel = 0
+bright.Position = UDim2.new(0, 230, 0, 193)
+bright.Size = UDim2.new(0, 60, 0, 25)
+
+Button_12.Name = "Button"
+Button_12.Parent = bright
+Button_12.BackgroundColor3 = Color3.new(0.741176, 0.737255, 0.760784)
+Button_12.BackgroundTransparency = 1
+Button_12.BorderColor3 = Color3.new(0.105882, 0.164706, 0.207843)
+Button_12.BorderSizePixel = 0
+Button_12.Size = UDim2.new(1, 0, 1, 0)
+Button_12.ZIndex = 2
+Button_12.Font = Enum.Font.SourceSans
+Button_12.Text = " "
+Button_12.TextColor3 = Color3.new(0, 0, 0)
+Button_12.TextSize = 14
+
+Circle_12.Name = "Circle"
+Circle_12.Parent = bright
+Circle_12.BackgroundColor3 = Color3.new(0.741176, 0.737255, 0.760784)
+Circle_12.BorderColor3 = Color3.new(0, 0, 0)
+Circle_12.BorderSizePixel = 0
+Circle_12.Position = UDim2.new(0, 0, -0.100000001, 0)
+Circle_12.Size = UDim2.new(0, 30, 0, 30)
+
+UICorner_33.Parent = Circle_12
+UICorner_33.CornerRadius = UDim.new(1, 0)
+
+UIScale_12.Parent = bright
+UIScale_12.Scale = 0.800000011920929
+
+UICorner_34.Parent = bright
+UICorner_34.CornerRadius = UDim.new(1, 0)
 
 Tabs.Name = "Tabs"
 Tabs.Parent = Main
@@ -1035,8 +1211,8 @@ LegitBot_2.TextColor3 = Color3.new(0, 0, 0)
 LegitBot_2.TextSize = 14
 LegitBot_2.TextTransparency = 1
 
-UICorner_31.Parent = LegitBot_2
-UICorner_31.CornerRadius = UDim.new(0, 15)
+UICorner_35.Parent = LegitBot_2
+UICorner_35.CornerRadius = UDim.new(0, 15)
 
 ImageLabel.Parent = LegitBot_2
 ImageLabel.AnchorPoint = Vector2.new(0.5, 0.5)
@@ -1049,9 +1225,9 @@ ImageLabel.Size = UDim2.new(0.600000024, 0, 0.600000024, 0)
 ImageLabel.ZIndex = 999999999
 ImageLabel.Image = "rbxassetid://75888661499963"
 
-UIPadding_15.Parent = Tabs
-UIPadding_15.PaddingLeft = UDim.new(0, 15)
-UIPadding_15.PaddingTop = UDim.new(0, 80)
+UIPadding_18.Parent = Tabs
+UIPadding_18.PaddingLeft = UDim.new(0, 15)
+UIPadding_18.PaddingTop = UDim.new(0, 80)
 
 Player_2.Name = "Player"
 Player_2.Parent = Tabs
@@ -1069,8 +1245,8 @@ Player_2.TextColor3 = Color3.new(0, 0, 0)
 Player_2.TextSize = 14
 Player_2.TextTransparency = 1
 
-UICorner_32.Parent = Player_2
-UICorner_32.CornerRadius = UDim.new(0, 15)
+UICorner_36.Parent = Player_2
+UICorner_36.CornerRadius = UDim.new(0, 15)
 
 ImageLabel_2.Parent = Player_2
 ImageLabel_2.AnchorPoint = Vector2.new(0.5, 0.5)
@@ -1095,16 +1271,16 @@ Effect.Size = UDim2.new(0, 55, 0, 55)
 Effect.Visible = false
 Effect.ZIndex = -9
 
-UICorner_33.Parent = Effect
-UICorner_33.CornerRadius = UDim.new(0, 15)
+UICorner_37.Parent = Effect
+UICorner_37.CornerRadius = UDim.new(0, 15)
 
-Frame_17.Parent = Effect
-Frame_17.AnchorPoint = Vector2.new(0.5, 0.5)
-Frame_17.BackgroundColor3 = Color3.new(0.341176, 0.556863, 0.976471)
-Frame_17.BorderColor3 = Color3.new(0, 0, 0)
-Frame_17.BorderSizePixel = 0
-Frame_17.Position = UDim2.new(0, 0, 0.5, 0)
-Frame_17.Size = UDim2.new(0, 5, 0.300000012, 0)
+Frame_14.Parent = Effect
+Frame_14.AnchorPoint = Vector2.new(0.5, 0.5)
+Frame_14.BackgroundColor3 = Color3.new(0.341176, 0.556863, 0.976471)
+Frame_14.BorderColor3 = Color3.new(0, 0, 0)
+Frame_14.BorderSizePixel = 0
+Frame_14.Position = UDim2.new(0, 0, 0.5, 0)
+Frame_14.Size = UDim2.new(0, 5, 0.300000012, 0)
 
 Misc_2.Name = "Misc"
 Misc_2.Parent = Tabs
@@ -1122,8 +1298,8 @@ Misc_2.TextColor3 = Color3.new(0, 0, 0)
 Misc_2.TextSize = 14
 Misc_2.TextTransparency = 1
 
-UICorner_34.Parent = Misc_2
-UICorner_34.CornerRadius = UDim.new(0, 15)
+UICorner_38.Parent = Misc_2
+UICorner_38.CornerRadius = UDim.new(0, 15)
 
 ImageLabel_3.Parent = Misc_2
 ImageLabel_3.AnchorPoint = Vector2.new(0.5, 0.5)
@@ -1144,7 +1320,7 @@ TopBarText.BorderColor3 = Color3.new(0, 0, 0)
 TopBarText.BorderSizePixel = 0
 TopBarText.Position = UDim2.new(1, 13, -0.150000006, 33)
 TopBarText.Size = UDim2.new(0, 260, 0, 20)
-TopBarText.FontFace = Font.fromId(12187365364)
+TopBarText.Font = Enum.Font.Unknown
 TopBarText.Text = "LegitBot"
 TopBarText.TextColor3 = Color3.new(0.54902, 0.54902, 0.54902)
 TopBarText.TextScaled = true
@@ -1152,14 +1328,14 @@ TopBarText.TextSize = 14
 TopBarText.TextWrapped = true
 TopBarText.TextXAlignment = Enum.TextXAlignment.Left
 
-UITextSizeConstraint_15.Parent = TopBarText
-UITextSizeConstraint_15.MaxTextSize = 17
+UITextSizeConstraint_18.Parent = TopBarText
+UITextSizeConstraint_18.MaxTextSize = 17
 
-UIPadding_16.Parent = TopBarText
-UIPadding_16.PaddingBottom = UDim.new(0, 1)
-UIPadding_16.PaddingLeft = UDim.new(0, 6)
-UIPadding_16.PaddingRight = UDim.new(0, 5)
-UIPadding_16.PaddingTop = UDim.new(0, 1)
+UIPadding_19.Parent = TopBarText
+UIPadding_19.PaddingBottom = UDim.new(0, 1)
+UIPadding_19.PaddingLeft = UDim.new(0, 6)
+UIPadding_19.PaddingRight = UDim.new(0, 5)
+UIPadding_19.PaddingTop = UDim.new(0, 1)
 
 Settings.Name = "Settings"
 Settings.Parent = Tabs
@@ -1177,8 +1353,8 @@ Settings.TextColor3 = Color3.new(0, 0, 0)
 Settings.TextSize = 14
 Settings.TextTransparency = 1
 
-UICorner_35.Parent = Settings
-UICorner_35.CornerRadius = UDim.new(0, 15)
+UICorner_39.Parent = Settings
+UICorner_39.CornerRadius = UDim.new(0, 15)
 
 ImageLabel_4.Parent = Settings
 ImageLabel_4.AnchorPoint = Vector2.new(0.5, 0.5)
@@ -1203,8 +1379,8 @@ Effect2.Size = UDim2.new(0, 55, 0, 55)
 Effect2.Visible = false
 Effect2.ZIndex = -10
 
-UICorner_36.Parent = Effect2
-UICorner_36.CornerRadius = UDim.new(0, 15)
+UICorner_40.Parent = Effect2
+UICorner_40.CornerRadius = UDim.new(0, 15)
 
 TopText.Name = "TopText"
 TopText.Parent = Tabs
@@ -1214,7 +1390,7 @@ TopText.BorderColor3 = Color3.new(0, 0, 0)
 TopText.BorderSizePixel = 0
 TopText.Position = UDim2.new(1, 13, -0.150000006, 13)
 TopText.Size = UDim2.new(0, 260, 0, 20)
-TopText.FontFace = Font.fromId(12187365364)
+TopText.Font = Enum.Font.Unknown
 TopText.Text = "liquidware.h2o"
 TopText.TextColor3 = Color3.new(1, 1, 1)
 TopText.TextScaled = true
@@ -1222,12 +1398,12 @@ TopText.TextSize = 14
 TopText.TextWrapped = true
 TopText.TextXAlignment = Enum.TextXAlignment.Left
 
-UITextSizeConstraint_16.Parent = TopText
-UITextSizeConstraint_16.MaxTextSize = 50
+UITextSizeConstraint_19.Parent = TopText
+UITextSizeConstraint_19.MaxTextSize = 50
 
-UIPadding_17.Parent = TopText
-UIPadding_17.PaddingLeft = UDim.new(0, 5)
-UIPadding_17.PaddingRight = UDim.new(0, 5)
+UIPadding_20.Parent = TopText
+UIPadding_20.PaddingLeft = UDim.new(0, 5)
+UIPadding_20.PaddingRight = UDim.new(0, 5)
 
 LogoImg.Name = "LogoImg"
 LogoImg.Parent = Tabs
@@ -1256,29 +1432,6 @@ LogoImg_2.Size = UDim2.new(0, 35, 0, 35)
 LogoImg_2.ZIndex = -10
 LogoImg_2.Image = "rbxassetid://77388846681465"
 
-TopText_2.Name = "TopText"
-TopText_2.Parent = Tabs
-TopText_2.BackgroundColor3 = Color3.new(1, 1, 1)
-TopText_2.BackgroundTransparency = 1
-TopText_2.BorderColor3 = Color3.new(0, 0, 0)
-TopText_2.BorderSizePixel = 0
-TopText_2.Position = UDim2.new(8.9818182, 13, -0.150000006, 13)
-TopText_2.Size = UDim2.new(0, 260, 0, 20)
-TopText_2.FontFace = Font.fromId(12187365364)
-TopText_2.Text = "made by meowya_cc"
-TopText_2.TextColor3 = Color3.new(1, 1, 1)
-TopText_2.TextScaled = true
-TopText_2.TextSize = 14
-TopText_2.TextWrapped = true
-TopText_2.TextXAlignment = Enum.TextXAlignment.Right
-
-UITextSizeConstraint_17.Parent = TopText_2
-UITextSizeConstraint_17.MaxTextSize = 50
-
-UIPadding_18.Parent = TopText_2
-UIPadding_18.PaddingLeft = UDim.new(0, 5)
-UIPadding_18.PaddingRight = UDim.new(0, 5)
-
 Topbar.Name = "Topbar"
 Topbar.Parent = Main
 Topbar.AnchorPoint = Vector2.new(0.100000001, 0.100000001)
@@ -1290,12 +1443,14 @@ Topbar.Position = UDim2.new(0.100000001, 0, 0, 0)
 Topbar.Size = UDim2.new(1, 0, 0, 60)
 Topbar.ZIndex = 999999999
 
-UICorner_37.Parent = Main
-UICorner_37.CornerRadius = UDim.new(0, 15)
+UICorner_41.Parent = Main
+UICorner_41.CornerRadius = UDim.new(0, 15)
+
+UIScale_13.Parent = Main
 
 -- Scripts
 
-local function OLIUFSK_fake_script() -- Main.drag 
+local function BINNS_fake_script() -- Main.drag 
 	local script = Instance.new('LocalScript', Main)
 
 	local UIS = game:GetService('UserInputService')
@@ -1334,395 +1489,442 @@ local function OLIUFSK_fake_script() -- Main.drag
 		end
 	end)
 end
-coroutine.wrap(OLIUFSK_fake_script)()
-local function WPCFC_fake_script() -- Button.LocalScript 
+coroutine.wrap(BINNS_fake_script)()
+local function EJZUY_fake_script() -- Button.LocalScript 
 	local script = Instance.new('LocalScript', Button)
 
 	local fovCircle
 	local thewhen = true
 	
-	local players = game:GetService("Players")
-	local LC = players.LocalPlayer
-	local mouse = LC:GetMouse()
-	local camera = workspace.CurrentCamera
-	local lighting = game:GetService("Lighting")
-	local rp = game:GetService("ReplicatedStorage")
-	local rs = game:GetService("RunService")
-	local cg = game:GetService("CoreGui")
-	local uis = game:GetService("UserInputService")
+		local players = game:GetService("Players")
+		local LC = players.LocalPlayer
+		local mouse = LC:GetMouse()
+		local camera = workspace.CurrentCamera
+		local lighting = game:GetService("Lighting")
+		local rp = game:GetService("ReplicatedStorage")
+		local rs = game:GetService("RunService")
+		local cg = game:GetService("CoreGui")
+		local uis = game:GetService("UserInputService")
 	
-	fovCircle = Drawing.new("Circle")
-	fovCircle.Radius = 350
-	fovCircle.Transparency = 1
-	fovCircle.Position = camera.ViewportSize/2
-	fovCircle.Visible = true
-	fovCircle.Thickness = 1.54
-	fovCircle.Color = Color3.fromRGB(255, 255, 255)
+		fovCircle = Drawing.new("Circle")
+		fovCircle.Radius = 350
+		fovCircle.Transparency = 1
+		fovCircle.Position = workspace.CurrentCamera.ViewportSize/2
+		fovCircle.Visible = false
+		fovCircle.Thickness = 1.54
+		fovCircle.Color = Color3.fromRGB(255, 255, 255)
 	
-	local aimTracer
-	local aimInitialized = false
+		local aimTracer
+		local aimInitialized = false
 	
-	local values = {
-		color = {
-			playerEsp = Color3.fromRGB(255,255,255),
-			playerEspOutline = Color3.fromRGB(255,255,255),
-			playerNameTag = Color3.fromRGB(255,255,255),
-			playerBox = Color3.fromRGB(255,255,255),
-			playerBoxOutline = Color3.fromRGB(255,255,255),
-			playerHealthTag = Color3.fromRGB(0,255,0),
-			playerDistanceTag = Color3.fromRGB(255,255,255),
-			npcEsp = Color3.fromRGB(255,255,255),
-			npcNameTag = Color3.fromRGB(255,255,255),
-			npcBox = Color3.fromRGB(255,255,255),
-			npcBoxOutline = Color3.fromRGB(255,255,255),
-			npcHealthTag = Color3.fromRGB(255,255,255),
-			npcDistanceTag = Color3.fromRGB(255,255,255),
-			vehicleEsp = Color3.fromRGB(255,255,255),
-			vehicleNameTag = Color3.fromRGB(255,255,255),
-			containerEsp = Color3.fromRGB(255,255,255),
-			containerNameTag = Color3.fromRGB(255,255,255),
-			corpseNameTag = Color3.fromRGB(255,255,255),
-			droppedItemNameTag = Color3.fromRGB(255,255,255),
-			viewmodel = Color3.fromRGB(255,255,255),
-			crosshair = Color3.fromRGB(255,255,255),
-			aimFov = Color3.fromRGB(255,255,255),
-		},
-		transparency = {
-			playerEsp = 0.70,
-			npcEsp = 0.70,
-			vehicleEsp = 0.70,
-			containerEsp = 0.70,
-			viewmodel = 0.70,
-		},
-		enabled = {
-			playerEsp = false,
-			playerNameTag = false,
-			playerDistanceTag = false,
-			playerBox = false,
-			playerHealthTag = false,
-			npcEsp = false,
-			npcNameTag = false,
-			npcDistanceTag = false,
-			npcBox = false,
-			npcHealthTag = false,
-			vehicleEsp = false,
-			vehicleNameTag = false,
-			containerEsp = false,
-			containerNameTag = false,
-			corpseNameTag = false,
-			droppedItemNameTag = false,
-			customViewmodel = false,
-			skinChanger = false,
-			crosshair = false,
-			fullbright = false,
-			removefog = false,
-			removefoliage = false,
-			inventoryChecker = false,
-			noScreenEffects = false,
-			aim = false,
-			aimCheckVisible = false,
-			aimFov = false,
-			megaBullets = false,
-			jesus = false,
-			banger = false,
-			tpWalk = false,
-			bunnyHop = false,
-			aimAlwaysActivated = false,
-			aimTracer = false,
-			aimWallbang = false,
-		},
-		distance = {
-			player = 1000,
-			npc = 1000,
-			vehicle = 1000,
-			container = 1000,
-			corpse = 1000,
-			droppedItem = 1000,
-		},
-		tagSize = {
-			player = 10,
-			npc = 10,
-			vehicle = 10,
-			container = 10,
-			corpse = 10,
-			droppedItem = 10,
-		},
-		radius = {
-			aim = 100,
-			inventoryChecker = 100,
-		},
-		misc = {
-			tagsFont = 1,
-			viewmodelMaterial = Enum.Material.Plastic,
-			crosshairType = "Dot",
-			aimPrediction = 1,
-			aimDistanceFactor = 2000,
-			fovChange = 60,
-			fov = 90,
-			aimMode = "Silent",
-			tpWalkSpeed = 1,
+		local values = {
+			color = {
+				playerEsp = Color3.fromRGB(255,255,255),
+				playerEspOutline = Color3.fromRGB(255,255,255),
+				playerNameTag = Color3.fromRGB(255,255,255),
+				playerBox = Color3.fromRGB(255,255,255),
+				playerBoxOutline = Color3.fromRGB(255,255,255),
+				playerHealthTag = Color3.fromRGB(0,255,0),
+				playerDistanceTag = Color3.fromRGB(255,255,255),
+				npcEsp = Color3.fromRGB(255,255,255),
+				npcNameTag = Color3.fromRGB(255,255,255),
+				npcBox = Color3.fromRGB(255,255,255),
+				npcBoxOutline = Color3.fromRGB(255,255,255),
+				npcHealthTag = Color3.fromRGB(255,255,255),
+				npcDistanceTag = Color3.fromRGB(255,255,255),
+				vehicleEsp = Color3.fromRGB(255,255,255),
+				vehicleNameTag = Color3.fromRGB(255,255,255),
+				containerEsp = Color3.fromRGB(255,255,255),
+				containerNameTag = Color3.fromRGB(255,255,255),
+				corpseNameTag = Color3.fromRGB(255,255,255),
+				droppedItemNameTag = Color3.fromRGB(255,255,255),
+				viewmodel = Color3.fromRGB(255,255,255),
+				crosshair = Color3.fromRGB(255,255,255),
+				aimFov = Color3.fromRGB(255,255,255),
+			},
+			transparency = {
+				playerEsp = 0.70,
+				npcEsp = 0.70,
+				vehicleEsp = 0.70,
+				containerEsp = 0.70,
+				viewmodel = 0.70,
+			},
+			enabled = {
+				playerEsp = false,
+				playerNameTag = false,
+				playerDistanceTag = false,
+				playerBox = false,
+				playerHealthTag = false,
+				npcEsp = false,
+				npcNameTag = false,
+				npcDistanceTag = false,
+				npcBox = false,
+				npcHealthTag = false,
+				vehicleEsp = false,
+				vehicleNameTag = false,
+				containerEsp = false,
+				containerNameTag = false,
+				corpseNameTag = false,
+				droppedItemNameTag = false,
+				customViewmodel = false,
+				skinChanger = false,
+				crosshair = false,
+				fullbright = false,
+				removefog = false,
+				removefoliage = false,
+				inventoryChecker = false,
+				noScreenEffects = false,
+				aim = false,
+				aimCheckVisible = false,
+				aimFov = false,
+				megaBullets = false,
+				jesus = false,
+				banger = false,
+				tpWalk = false,
+				bunnyHop = false,
+				aimAlwaysActivated = false,
+				aimTracer = false,
+				aimWallbang = false,
+			},
+			distance = {
+				player = 1000,
+				npc = 1000,
+				vehicle = 1000,
+				container = 1000,
+				corpse = 1000,
+				droppedItem = 1000,
+			},
+			tagSize = {
+				player = 10,
+				npc = 10,
+				vehicle = 10,
+				container = 10,
+				corpse = 10,
+				droppedItem = 10,
+			},
+			radius = {
+				aim = 100,
+				inventoryChecker = 100,
+			},
+			misc = {
+				tagsFont = 1,
+				viewmodelMaterial = Enum.Material.Plastic,
+				crosshairType = "Dot",
+				aimPrediction = 1,
+				aimDistanceFactor = 2000,
+				fovChange = 60,
+				fov = 90,
+				aimMode = "Silent",
+				tpWalkSpeed = 1,
+			}
 		}
-	}
 	
-	script.Parent.MouseButton1Click:Connect(function()
-		if thewhen then
-			thewhen = false
-			script.Parent.Parent.Parent.Aimkey.Visible = true
-			script.Parent.Parent.Parent.Aimtext.Visible = true
-			values.enabled["aim"] = true
-			game:GetService("TweenService"):Create(script.Parent.Parent.Circle, TweenInfo.new(0.1, Enum.EasingStyle.Quad, Enum.EasingDirection.InOut), {BackgroundColor3 = Color3.fromRGB(92, 147, 249)}):Play()
-			script.Parent.Parent.Circle:TweenPosition(UDim2.new(0.5, 0, -0.1, 0), "In", "Quad", 0.12, true)
-			wait(0.05)
-		else
-			thewhen = true
-			script.Parent.Parent.Parent.Aimkey.Visible = false
-			script.Parent.Parent.Parent.Aimtext.Visible = false    
-			values.enabled["aim"] = false
-			game:GetService("TweenService"):Create(script.Parent.Parent.Circle, TweenInfo.new(0.1, Enum.EasingStyle.Quad, Enum.EasingDirection.InOut), {BackgroundColor3 = Color3.fromRGB(189, 188, 194)}):Play()
-			script.Parent.Parent.Circle:TweenPosition(UDim2.new(0, 0, -0.1, 0), "In", "Quad", 0.12, true)
-			wait(0.05)
-		end
-	end)
-	
-	
-	local function aim()
-		if aimInitialized then
-			return
-		end
-		aimInitialized = true
-		local rayParams = RaycastParams.new(); rayParams.FilterType = Enum.RaycastFilterType.Exclude; rayParams.FilterDescendantsInstances = {LC.Character}; rayParams.IgnoreWater = true
-		local closestCharacter
-		local closestDistance
-		local previousClosestCharacter
-	
-		local function hasCollisionFidelity(instance)
-			local success, value = pcall(function() return instance.CollisionFidelity end)
-			return success and value
-		end
-	
-		local function moveFaceHitBoxToAir(character)
-			if character and character:FindFirstChild("FaceHitBox") then
-				local faceHitBox = character.FaceHitBox
-				faceHitBox.CFrame = CFrame.new(0, 1000, 0) 
+		script.Parent.MouseButton1Click:Connect(function()
+			if thewhen then
+				thewhen = false
+			fovCircle.Visible = true
+				values.enabled["aim"] = true
+				game:GetService("TweenService"):Create(script.Parent.Parent.Circle, TweenInfo.new(0.1, Enum.EasingStyle.Quad, Enum.EasingDirection.InOut), {BackgroundColor3 = Color3.fromRGB(92, 147, 249)}):Play()
+				script.Parent.Parent.Circle:TweenPosition(UDim2.new(0.5, 0, -0.1, 0), "In", "Quad", 0.12, true)
+				wait(0.05)
+			else
+				thewhen = true
+			fovCircle.Visible = false
+				values.enabled["aim"] = false
+				game:GetService("TweenService"):Create(script.Parent.Parent.Circle, TweenInfo.new(0.1, Enum.EasingStyle.Quad, Enum.EasingDirection.InOut), {BackgroundColor3 = Color3.fromRGB(189, 188, 194)}):Play()
+				script.Parent.Parent.Circle:TweenPosition(UDim2.new(0, 0, -0.1, 0), "In", "Quad", 0.12, true)
+				wait(0.05)
 			end
-		end
+		end)
 	
-		local function isVisible(character)
-			local visible = false
-			if not character then return false end
-			if character:FindFirstChild("Head") then
-				local direction = (character.Head.Position - camera.CFrame.Position).Unit * 5000
-				local rayw = workspace:Raycast(camera.CFrame.Position, direction, rayParams)
-				if values.enabled["aimWallbang"] and rayw and rayw.Instance and hasCollisionFidelity(rayw.Instance) and rayw.Instance.CollisionFidelity ~= "Default" then
-					rayParams.FilterDescendantsInstances = {LC.Character, rayw.Instance}
-				end
-				local ray = workspace:Raycast(camera.CFrame.Position, direction, rayParams)
-				if ray and ray.Instance and ray.Instance:IsDescendantOf(character) then
-					visible = true
+	
+		local function aim()
+			if aimInitialized then
+				return
+			end
+			aimInitialized = true
+			local rayParams = RaycastParams.new(); rayParams.FilterType = Enum.RaycastFilterType.Exclude; rayParams.FilterDescendantsInstances = {LC.Character}; rayParams.IgnoreWater = true
+			local closestCharacter
+			local closestDistance
+			local previousClosestCharacter
+	
+			local function hasCollisionFidelity(instance)
+				local success, value = pcall(function() return instance.CollisionFidelity end)
+				return success and value
+			end
+	
+			local function moveFaceHitBoxToAir(character)
+				if character and character:FindFirstChild("FaceHitBox") then
+					local faceHitBox = character.FaceHitBox
+					faceHitBox.CFrame = CFrame.new(0, 1000, 0) 
 				end
 			end
-			if character:FindFirstChild("HumanoidRootPart") then
-				local direction = (character.HumanoidRootPart.Position - camera.CFrame.Position).Unit * 5000
-				local rayw = workspace:Raycast(camera.CFrame.Position, direction, rayParams)
-				if values.enabled["aimWallbang"] and rayw and rayw.Instance and hasCollisionFidelity(rayw.Instance) and rayw.Instance.CollisionFidelity ~= "Default" then
-					rayParams.FilterDescendantsInstances = {LC.Character, rayw.Instance}
+	
+			local function isVisible(character)
+				local visible = false
+				if not character then return false end
+				if character:FindFirstChild("Head") then
+					local direction = (character.Head.Position - camera.CFrame.Position).Unit * 5000
+					local rayw = workspace:Raycast(camera.CFrame.Position, direction, rayParams)
+					if values.enabled["aimWallbang"] and rayw and rayw.Instance and hasCollisionFidelity(rayw.Instance) and rayw.Instance.CollisionFidelity ~= "Default" then
+						rayParams.FilterDescendantsInstances = {LC.Character, rayw.Instance}
+					end
+					local ray = workspace:Raycast(camera.CFrame.Position, direction, rayParams)
+					if ray and ray.Instance and ray.Instance:IsDescendantOf(character) then
+						visible = true
+					end
 				end
-				local ray = workspace:Raycast(camera.CFrame.Position, direction, rayParams)
-				if ray and ray.Instance and ray.Instance:IsDescendantOf(character) then
-					visible = true
+				if character:FindFirstChild("HumanoidRootPart") then
+					local direction = (character.HumanoidRootPart.Position - camera.CFrame.Position).Unit * 5000
+					local rayw = workspace:Raycast(camera.CFrame.Position, direction, rayParams)
+					if values.enabled["aimWallbang"] and rayw and rayw.Instance and hasCollisionFidelity(rayw.Instance) and rayw.Instance.CollisionFidelity ~= "Default" then
+						rayParams.FilterDescendantsInstances = {LC.Character, rayw.Instance}
+					end
+					local ray = workspace:Raycast(camera.CFrame.Position, direction, rayParams)
+					if ray and ray.Instance and ray.Instance:IsDescendantOf(character) then
+						visible = true
+					end
 				end
+				return visible
 			end
-			return visible
-		end
 	
-		local function updateAim()
-			closestCharacter = nil
-			closestDistance = math.huge
+			local function updateAim()
+				closestCharacter = nil
+				closestDistance = math.huge
 	
-			for _, player in ipairs(players:GetPlayers()) do
-				if player ~= LC and player.Character and player.Character:FindFirstChild("Head") then
-					local head = player.Character.Head
-					local vector, onScreen = camera:WorldToViewportPoint(head.Position)
-					local screenPoint = Vector2.new(vector.X, vector.Y)
-					local distance = (screenPoint - camera.ViewportSize/2).Magnitude
+				for _, player in ipairs(players:GetPlayers()) do
+					if player ~= LC and player.Character and player.Character:FindFirstChild("Head") then
+						local head = player.Character.Head
+						local vector, onScreen = camera:WorldToViewportPoint(head.Position)
+						local screenPoint = Vector2.new(vector.X, vector.Y)
+						local distance = (screenPoint - camera.ViewportSize/2).Magnitude
 	
-					for _, w in pairs(head:GetChildren()) do
-						if w:IsA("WeldConstraint") and w.Part1 and w.Part1.Name == "FaceHitBox" then
-							w.Enabled = false
+						for _, w in pairs(head:GetChildren()) do
+							if w:IsA("WeldConstraint") and w.Part1 and w.Part1.Name == "FaceHitBox" then
+								w.Enabled = false
+							end
+						end
+	
+						if player.Character:FindFirstChild("FaceHitBox") then
+							player.Character.FaceHitBox.Anchored = true
+						end
+	
+						if onScreen and distance < values.radius["aim"] and distance < closestDistance then
+							closestDistance = distance
+							closestCharacter = player.Character
+						end
+					end
+				end
+	
+				if previousClosestCharacter ~= closestCharacter then
+					moveFaceHitBoxToAir(previousClosestCharacter)
+					previousClosestCharacter = closestCharacter
+				end
+	
+				if closestCharacter and values.enabled["aim"] or values.enabled["aimAlwaysActivated"] then task.wait()
+					if not closestCharacter then
+						if tostring(aimTracer) == "Drawing" then
+							aimTracer:Remove()
+							aimTracer = nil
+						end
+						return
+					end
+					--Aim modes and logic
+					if values.misc["aimMode"] == "Lock" then
+						if closestCharacter:FindFirstChild("Head") then
+							local head = closestCharacter:FindFirstChild("Head")
+							if values.enabled["aimCheckVisible"] and isVisible(closestCharacter) or not values.enabled["aimCheckVisible"] then
+								camera.CFrame = CFrame.new(camera.CFrame.Position, head.Position)
+							end
+						end
+					elseif values.misc["aimMode"] == "Silent" then
+						if closestCharacter:FindFirstChild("Head") and camera:FindFirstChild("ViewModel") then
+							local head = closestCharacter:FindFirstChild("Head")
+							local vm = camera:FindFirstChild("ViewModel")
+							local ap = vm:FindFirstChild("AimPart")
+							local apc = vm:FindFirstChild("AimPartCanted")
+							local fc = vm:FindFirstChild("FakeCamera")
+							if ap and apc and fc then
+								if values.enabled["aimCheckVisible"] and isVisible(closestCharacter) or not values.enabled["aimCheckVisible"] then
+									ap.CFrame = CFrame.new(camera.CFrame.Position, head.Position)
+									apc.CFrame = CFrame.new(camera.CFrame.Position, head.Position)
+								end
+							end
+						end
+					elseif values.misc["aimMode"] == "OMEGA" then
+						if closestCharacter:FindFirstChild("Head") and camera:FindFirstChild("ViewModel") and closestCharacter:FindFirstChild("FaceHitBox") then
+							local head = closestCharacter:FindFirstChild("Head")
+							local vm = camera:FindFirstChild("ViewModel")
+							local ap = vm:FindFirstChild("AimPart")
+							local apc = vm:FindFirstChild("AimPartCanted")
+							local fc = vm:FindFirstChild("FakeCamera")
+							local fh = closestCharacter:FindFirstChild("FaceHitBox")
+							local hrp = vm:FindFirstChild("HumanoidRootPart")
+							if ap and apc and fc and fh and hrp then
+								if values.enabled["aimCheckVisible"] and isVisible(closestCharacter) or not values.enabled["aimCheckVisible"] then
+									fh.CFrame = CFrame.new(camera.CFrame.Position + camera.CFrame.LookVector * 3 + Vector3.new(0,1,0), fc.Position)
+									ap.CFrame = CFrame.new(camera.CFrame.Position, fh.Position)
+									apc.CFrame = CFrame.new(camera.CFrame.Position, fh.Position)
+								end
+							end
 						end
 					end
 	
-					if player.Character:FindFirstChild("FaceHitBox") then
-						player.Character.FaceHitBox.Anchored = true
+					--Target tracer
+					if values.enabled["aimCheckVisible"] and isVisible(closestCharacter) or not values.enabled["aimCheckVisible"] then
+						if values.enabled["aimTracer"] and closestCharacter:FindFirstChild("HumanoidRootPart") then
+							local vector, onsc = camera:WorldToViewportPoint(closestCharacter.HumanoidRootPart.Position)
+							local screenPoint = Vector2.new(vector.X, vector.Y)
+							local distance = (screenPoint - camera.ViewportSize/2).Magnitude
+							if not aimTracer then
+								aimTracer = Drawing.new("Line")
+							end
+							aimTracer.Thickness = 2
+							aimTracer.Color = values.color["aimFov"]
+							if onsc and distance < values.radius["aim"] then
+								aimTracer.Transparency = 0.8
+								aimTracer.From = camera.ViewportSize/2
+								aimTracer.To = screenPoint
+							else
+								aimTracer.Transparency = 0
+							end
+						else
+							if tostring(aimTracer) == "Drawing" then
+								aimTracer:Remove()
+								aimTracer = nil
+							end
+						end
+					else
+						if tostring(aimTracer) == "Drawing" then
+							aimTracer.Transparency = 0
+						end
 					end
-	
-					if onScreen and distance < values.radius["aim"] and distance < closestDistance then
-						closestDistance = distance
-						closestCharacter = player.Character
-					end
-				end
-			end
-	
-			if previousClosestCharacter ~= closestCharacter then
-				moveFaceHitBoxToAir(previousClosestCharacter)
-				previousClosestCharacter = closestCharacter
-			end
-	
-			if closestCharacter and values.enabled["aim"] or values.enabled["aimAlwaysActivated"] then task.wait()
-				if not closestCharacter then
+				else
 					if tostring(aimTracer) == "Drawing" then
 						aimTracer:Remove()
 						aimTracer = nil
 					end
 					return
 				end
-				--Aim modes and logic
-				if values.misc["aimMode"] == "Lock" then
-					if closestCharacter:FindFirstChild("Head") then
-						local head = closestCharacter:FindFirstChild("Head")
-						if values.enabled["aimCheckVisible"] and isVisible(closestCharacter) or not values.enabled["aimCheckVisible"] then
-							camera.CFrame = CFrame.new(camera.CFrame.Position, head.Position)
-						end
-					end
-				elseif values.misc["aimMode"] == "Silent" then
-					if closestCharacter:FindFirstChild("Head") and camera:FindFirstChild("ViewModel") then
-						local head = closestCharacter:FindFirstChild("Head")
-						local vm = camera:FindFirstChild("ViewModel")
-						local ap = vm:FindFirstChild("AimPart")
-						local apc = vm:FindFirstChild("AimPartCanted")
-						local fc = vm:FindFirstChild("FakeCamera")
-						if ap and apc and fc then
-							if values.enabled["aimCheckVisible"] and isVisible(closestCharacter) or not values.enabled["aimCheckVisible"] then
-								ap.CFrame = CFrame.new(camera.CFrame.Position, head.Position)
-								apc.CFrame = CFrame.new(camera.CFrame.Position, head.Position)
-							end
-						end
-					end
-				elseif values.misc["aimMode"] == "OMEGA" then
-					if closestCharacter:FindFirstChild("Head") and camera:FindFirstChild("ViewModel") and closestCharacter:FindFirstChild("FaceHitBox") then
-						local head = closestCharacter:FindFirstChild("Head")
-						local vm = camera:FindFirstChild("ViewModel")
-						local ap = vm:FindFirstChild("AimPart")
-						local apc = vm:FindFirstChild("AimPartCanted")
-						local fc = vm:FindFirstChild("FakeCamera")
-						local fh = closestCharacter:FindFirstChild("FaceHitBox")
-						local hrp = vm:FindFirstChild("HumanoidRootPart")
-						if ap and apc and fc and fh and hrp then
-							if values.enabled["aimCheckVisible"] and isVisible(closestCharacter) or not values.enabled["aimCheckVisible"] then
-								fh.CFrame = CFrame.new(camera.CFrame.Position + camera.CFrame.LookVector * 3 + Vector3.new(0,1,0), fc.Position)
-								ap.CFrame = CFrame.new(camera.CFrame.Position, fh.Position)
-								apc.CFrame = CFrame.new(camera.CFrame.Position, fh.Position)
-							end
-						end
-					end
-				end
 	
-				--Target tracer
-				if values.enabled["aimCheckVisible"] and isVisible(closestCharacter) or not values.enabled["aimCheckVisible"] then
-					if values.enabled["aimTracer"] and closestCharacter:FindFirstChild("HumanoidRootPart") then
-						local vector, onsc = camera:WorldToViewportPoint(closestCharacter.HumanoidRootPart.Position)
-						local screenPoint = Vector2.new(vector.X, vector.Y)
-						local distance = (screenPoint - camera.ViewportSize/2).Magnitude
-						if not aimTracer then
-							aimTracer = Drawing.new("Line")
-						end
-						aimTracer.Thickness = 2
-						aimTracer.Color = values.color["aimFov"]
-						if onsc and distance < values.radius["aim"] then
-							aimTracer.Transparency = 0.8
-							aimTracer.From = camera.ViewportSize/2
-							aimTracer.To = screenPoint
-						else
-							aimTracer.Transparency = 0
-						end
-					else
-						if tostring(aimTracer) == "Drawing" then
-							aimTracer:Remove()
-							aimTracer = nil
-						end
-					end
-				else
-					if tostring(aimTracer) == "Drawing" then
-						aimTracer.Transparency = 0
-					end
-				end
-			else
-				if tostring(aimTracer) == "Drawing" then
-					aimTracer:Remove()
-					aimTracer = nil
-				end
-				return
 			end
-	
+			rs.RenderStepped:Connect(function()
+				if values.enabled["aim"] or values.enabled["aimAlwaysActivated"] then
+					updateAim()
+				end
+			end)
 		end
-		rs.RenderStepped:Connect(function()
-			if values.enabled["aim"] or values.enabled["aimAlwaysActivated"] then
-				updateAim()
-			end
-		end)
-	end
 	
-	aim()
+		aim()
 end
-coroutine.wrap(WPCFC_fake_script)()
-local function DXCUZ_fake_script() -- Aimkey.LocalScript 
-	local script = Instance.new('LocalScript', Aimkey)
-
-	local textButton = script.Parent
-	local UserInputService = game:GetService("UserInputService")
-	local isWaitingForKeyPress = false
-	
-	local function onKeyPress(input)
-		if isWaitingForKeyPress and input.UserInputType == Enum.UserInputType.Keyboard then
-			textButton.Text = "["..input.KeyCode.Name.."]"
-			script.Parent.Key.Value = input.KeyCode.Name
-			isWaitingForKeyPress = false
-			UserInputService.InputBegan:Disconnect(onKeyPress)
-		end
-	end
-	
-	local function onButtonClick()
-		textButton.Text = "[...]"
-		isWaitingForKeyPress = true
-		UserInputService.InputBegan:Connect(onKeyPress)
-	end
-	
-	textButton.MouseButton1Click:Connect(onButtonClick)
-end
-coroutine.wrap(DXCUZ_fake_script)()
-local function UVHVW_fake_script() -- Button_2.LocalScript 
+coroutine.wrap(EJZUY_fake_script)()
+local function QVCG_fake_script() -- Button_2.LocalScript 
 	local script = Instance.new('LocalScript', Button_2)
 
 	local TweenService = game:GetService("TweenService")
 	
 	local thewhen = true
-	local aim = true
+	
+	local function removeAdornments()
+		for _, player in pairs(game.Players:GetChildren()) do
+			if player ~= game.Players.LocalPlayer and player.Character then
+				for _, part in pairs(player.Character:GetDescendants()) do
+					if part:IsA("CylinderHandleAdornment") or part:IsA("BoxHandleAdornment") then
+						if part.Name == "inner" or part.Name == "outer" then
+							part:Destroy()
+						end
+					end
+				end	
+			end
+		end
+	end
+	
+	local activeAdornments = {}
+	
+	local function pulseAdornments(adornment)
+		while adornment.Parent do
+			for i = 0, 0.1, 0.01 do
+				adornment.Transparency = i
+				wait(0.01)
+			end
+			for i = 0.1, 0, -0.01 do
+				adornment.Transparency = i
+				wait(0.01)
+			end
+		end
+	end
+	
+	local function createAdornments()
+		for _, player in pairs(game.Players:GetChildren()) do
+			if player  ~= game.Players.LocalPlayer and player.Character then
+				local characterParts = player.Character:GetDescendants()
+				for _, part in pairs(characterParts) do
+					local innerAdornment, outerAdornment
+					if part:IsA("BasePart") or part:IsA("Accessory") then
+						if part:IsA("BasePart") and part.Name == "HumanoidRootPart" then
+							continue
+						end
+	
+						if part:IsA("Accessory") then
+							part = part:FindFirstChild("Handle") 
+							if not part then continue end 
+						end
+	
+						if part.Name == "Head" then
+							innerAdornment = Instance.new("CylinderHandleAdornment", part)
+							outerAdornment = Instance.new("CylinderHandleAdornment", part)
+							innerAdornment.CFrame = innerAdornment.CFrame * CFrame.Angles(math.rad(90), 0, 0)
+							outerAdornment.CFrame = outerAdornment.CFrame * CFrame.Angles(math.rad(90), 0, 0)
+							innerAdornment.Radius = 0.54
+							outerAdornment.Radius = 0.62
+							innerAdornment.Height = 1.12
+							outerAdornment.Height = 1.3
+						else
+							innerAdornment = Instance.new("BoxHandleAdornment", part)
+							outerAdornment = Instance.new("BoxHandleAdornment", part)
+							innerAdornment.Size = part.Size + Vector3.new(0.02, 0.02, 0.02)
+							outerAdornment.Size = part.Size + Vector3.new(0.12, 0.12, 0.12)
+						end
+	
+						innerAdornment.Name = "inner"
+						outerAdornment.Name = "outer"
+						innerAdornment.Adornee = part
+						outerAdornment.Adornee = part
+						outerAdornment.Color3 = Color3.fromRGB(255, 0, 4)
+						innerAdornment.Color3 = Color3.fromRGB(213, 213, 213)
+						innerAdornment.Transparency = 0
+						outerAdornment.Transparency = 0
+						innerAdornment.AlwaysOnTop = true
+						outerAdornment.AlwaysOnTop = true	
+						innerAdornment.ZIndex = 5
+	
+						table.insert(activeAdornments, innerAdornment)
+						table.insert(activeAdornments, outerAdornment)
+						coroutine.wrap(pulseAdornments)(innerAdornment)
+						coroutine.wrap(pulseAdornments)(outerAdornment)
+					end
+				end
+			end
+		end
+	end
+	
+	local isAdornmentActive = true
+	
+	
 	
 	script.Parent.MouseButton1Click:Connect(function()
 		if thewhen == false then
 			thewhen = true
-			aim = true
-			game.Lighting.Ambient = Color3.fromRGB(178, 178, 178)
-			game:GetService("Lighting").GlobalShadows = false
-			game:GetService("Lighting").FogEnd = 14881488
-			local da = Instance.new("ColorCorrectionEffect")
-			da.Name= "da"
-			da.Brightness= 0.3
-			da.Contrast= 0
-			da.Saturation= 0
-			da.Enabled= true
-	
+			isAdornmentActive = false
+			createAdornments()
 			TweenService:Create(script.Parent.Parent.Circle, TweenInfo.new(0.1, Enum.EasingStyle.Quad, Enum.EasingDirection.InOut), {BackgroundColor3 = Color3.fromRGB(92, 147, 249)}):Play()
 			script.Parent.Parent.Circle:TweenPosition(UDim2.new(0.5, 0, -0.1, 0), "In", "Quad", 0.12, true)
 			wait(0.05)
 		else
 			thewhen = false
-			aim = false
-	
-			game.Lighting.Ambient = Color3.fromRGB(0,0,0)
-			game:GetService("Lighting").FogEnd = 14881488
-			game:GetService("Lighting").GlobalShadows = true
-	
+			isAdornmentActive = true
+			removeAdornments()
+			activeAdornments = {}
 			TweenService:Create(script.Parent.Parent.Circle, TweenInfo.new(0.1, Enum.EasingStyle.Quad, Enum.EasingDirection.InOut), {BackgroundColor3 = Color3.fromRGB(189, 188, 194)}):Play()
 			script.Parent.Parent.Circle:TweenPosition(UDim2.new(0, 0, -0.1, 0), "In", "Quad", 0.12, true)
 			wait(0.05)
@@ -1730,95 +1932,8 @@ local function UVHVW_fake_script() -- Button_2.LocalScript
 	end)
 	
 end
-coroutine.wrap(UVHVW_fake_script)()
-local function ZXAPYV_fake_script() -- Button_3.LocalScript 
-	local script = Instance.new('LocalScript', Button_3)
-
-	local TweenService = game:GetService("TweenService")
-	
-	local thewhen = true
-	local aim = true
-	
-	script.Parent.MouseButton1Click:Connect(function()
-		if thewhen == false then
-			thewhen = true
-			aim = true
-			game.Lighting.Ambient = Color3.fromRGB(178, 178, 178)
-			game:GetService("Lighting").GlobalShadows = false
-			game:GetService("Lighting").FogEnd = 14881488
-			local da = Instance.new("ColorCorrectionEffect")
-			da.Name= "da"
-			da.Brightness= 0.3
-			da.Contrast= 0
-			da.Saturation= 0
-			da.Enabled= true
-	
-			TweenService:Create(script.Parent.Parent.Circle, TweenInfo.new(0.1, Enum.EasingStyle.Quad, Enum.EasingDirection.InOut), {BackgroundColor3 = Color3.fromRGB(92, 147, 249)}):Play()
-			script.Parent.Parent.Circle:TweenPosition(UDim2.new(0.5, 0, -0.1, 0), "In", "Quad", 0.12, true)
-			wait(0.05)
-		else
-			thewhen = false
-			aim = false
-	
-			game.Lighting.Ambient = Color3.fromRGB(0,0,0)
-			game:GetService("Lighting").FogEnd = 14881488
-			game:GetService("Lighting").GlobalShadows = true
-	
-			TweenService:Create(script.Parent.Parent.Circle, TweenInfo.new(0.1, Enum.EasingStyle.Quad, Enum.EasingDirection.InOut), {BackgroundColor3 = Color3.fromRGB(189, 188, 194)}):Play()
-			script.Parent.Parent.Circle:TweenPosition(UDim2.new(0, 0, -0.1, 0), "In", "Quad", 0.12, true)
-			wait(0.05)
-		end
-	end)
-	
-end
-coroutine.wrap(ZXAPYV_fake_script)()
-local function QUZQQ_fake_script() -- Button_4.LocalScript 
-	local script = Instance.new('LocalScript', Button_4)
-
-	local TweenService = game:GetService("TweenService")
-	local replicatedStorage = game.ReplicatedStorage
-	local projectileHit = replicatedStorage.SFX.Hits.ProjectileHits.Blood.Hit
-	local originalHit = projectileHit:Clone()
-	originalHit.Name = "Hit_orig"
-	
-	local thewhen = true
-	local aim = true
-	
-	script.Parent.MouseButton1Click:Connect(function()
-		if thewhen == false then
-			thewhen = true
-			aim = true
-			projectileHit.SoundId = "rbxassetid://1347140027"
-			projectileHit.RollOffMaxDistance = 10000000
-			projectileHit.RollOffMinDistance = 10000000
-			projectileHit.Volume = 2
-	
-			TweenService:Create(script.Parent.Parent.Circle, TweenInfo.new(0.1, Enum.EasingStyle.Quad, Enum.EasingDirection.InOut), {BackgroundColor3 = Color3.fromRGB(92, 147, 249)}):Play()
-			script.Parent.Parent.Circle:TweenPosition(UDim2.new(0.5, 0, -0.1, 0), "In", "Quad", 0.12, true)
-			wait(0.05)
-		else
-			thewhen = false
-			aim = false
-	
-			projectileHit:Destroy()  
-			local newHit = originalHit:Clone() 
-			newHit.Name = "Hit" 
-			newHit.Parent = projectileHit.Parent 
-			
-			projectileHit.SoundId= "rbxassetid://4581728529"
-			projectileHit.RollOffMaxDistance = 105
-			projectileHit.RollOffMinDistance = 7
-			projectileHit.Volume = 1
-	
-			TweenService:Create(script.Parent.Parent.Circle, TweenInfo.new(0.1, Enum.EasingStyle.Quad, Enum.EasingDirection.InOut), {BackgroundColor3 = Color3.fromRGB(189, 188, 194)}):Play()
-			script.Parent.Parent.Circle:TweenPosition(UDim2.new(0, 0, -0.1, 0), "In", "Quad", 0.12, true)
-			wait(0.05)
-		end
-	end)
-	
-end
-coroutine.wrap(QUZQQ_fake_script)()
-local function WKJDLLU_fake_script() -- Thirdkey.LocalScript 
+coroutine.wrap(QVCG_fake_script)()
+local function MIZE_fake_script() -- Thirdkey.LocalScript 
 	local script = Instance.new('LocalScript', Thirdkey)
 
 	local textButton = script.Parent
@@ -1842,9 +1957,9 @@ local function WKJDLLU_fake_script() -- Thirdkey.LocalScript
 	
 	textButton.MouseButton1Click:Connect(onButtonClick)
 end
-coroutine.wrap(WKJDLLU_fake_script)()
-local function UKAL_fake_script() -- Button_5.LocalScript 
-	local script = Instance.new('LocalScript', Button_5)
+coroutine.wrap(MIZE_fake_script)()
+local function KWDC_fake_script() -- Button_3.LocalScript 
+	local script = Instance.new('LocalScript', Button_3)
 
 	
 		local thewhen = true
@@ -1913,9 +2028,116 @@ local function UKAL_fake_script() -- Button_5.LocalScript
 			end
 		end)
 end
-coroutine.wrap(UKAL_fake_script)()
-local function BRDRCQT_fake_script() -- Button_6.LocalScript 
-	local script = Instance.new('LocalScript', Button_6)
+coroutine.wrap(KWDC_fake_script)()
+local function FSCSTHQ_fake_script() -- Button_4.LocalScript 
+	local script = Instance.new('LocalScript', Button_4)
+
+	local TweenService = game:GetService("TweenService")
+	local HeadOff = Vector3.new(0, 0.5, 0)
+	local LegOff = Vector3.new(0, 3, 0)
+	local enabled = false
+	local thewhen = true
+	local esp = false
+	local espElements = {}  -- Таблица для хранения всех созданных ESP
+	
+	local function createBoxEsp(v)
+		local NameTag = Drawing.new("Text")
+		NameTag.Visible = false
+		NameTag.Color = Color3.new(1, 1, 1)
+		NameTag.Size = 9
+		NameTag.Center = true
+		NameTag.Outline = true
+		NameTag.OutlineColor = Color3.new(0, 0, 0)
+	
+		local DistanceTag = Drawing.new("Text")
+		DistanceTag.Visible = false
+		DistanceTag.Color = Color3.new(1, 1, 1)
+		DistanceTag.Size = 9
+		DistanceTag.Center = true
+		DistanceTag.Outline = true
+		DistanceTag.OutlineColor = Color3.new(0, 0, 0)
+	
+		local renderConnection
+		renderConnection = game["Run Service"].RenderStepped:Connect(function()
+			if v.Character and v.Character:FindFirstChild("Humanoid") and v.Character:FindFirstChild("HumanoidRootPart") and v ~= game.Players.LocalPlayer and v.Character.Humanoid.Health > 0 then
+				local RootPart = v.Character.HumanoidRootPart
+				local Head = v.Character:FindFirstChild("Head")
+	
+				local RootPosition, RootVisibility = game.Workspace.Camera:worldToViewportPoint(RootPart.Position)
+				local HeadPosition = game.Workspace.Camera:worldToViewportPoint(Head.Position + HeadOff)
+				local LegPosition = game.Workspace.Camera:worldToViewportPoint(RootPart.Position - LegOff)
+	
+				NameTag.Position = Vector2.new(HeadPosition.X, HeadPosition.Y)
+				NameTag.Text = v.Name
+				NameTag.Visible = true
+	
+				local distance = math.floor((game.Players.LocalPlayer.Character.HumanoidRootPart.Position - RootPart.Position).Magnitude)
+				DistanceTag.Position = Vector2.new(RootPosition.X, RootPosition.Y + 20)  -- Adjust to position it above
+				DistanceTag.Text = tostring(distance) .. "m"
+				DistanceTag.Visible = true
+	
+				NameTag.Visible = true
+				DistanceTag.Visible = true
+			else
+				NameTag.Visible = false
+				DistanceTag.Visible = false
+			end
+		end)
+	
+		-- Сохраняем созданные элементы ESP
+		table.insert(espElements, { NameTag = NameTag, DistanceTag = DistanceTag, Connection = renderConnection })
+	
+		return function()
+			-- Убираем элементы ESP из визуализации
+			NameTag:Remove()
+			DistanceTag:Remove()
+			renderConnection:Disconnect()
+		end
+	end
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		if thewhen == false then
+			thewhen = true
+			enabled = true
+	
+			if enabled then
+				for _, v in ipairs(game.Players:GetPlayers()) do
+					if v ~= game.Players.LocalPlayer then
+						createBoxEsp(v)
+					end
+				end
+	
+				game.Players.PlayerAdded:Connect(function(v)
+					if v ~= game.Players.LocalPlayer then
+						createBoxEsp(v)
+					end
+				end)
+			end
+	
+			TweenService:Create(script.Parent.Parent.Circle, TweenInfo.new(0.1, Enum.EasingStyle.Quad, Enum.EasingDirection.InOut), {BackgroundColor3 = Color3.fromRGB(92, 147, 249)}):Play()
+			script.Parent.Parent.Circle:TweenPosition(UDim2.new(0.5, 0, -0.1, 0), "In", "Quad", 0.12, true)
+			wait(0.05)
+		else
+			thewhen = false
+			for _, esp in ipairs(espElements) do
+				esp.NameTag:Remove()
+				esp.DistanceTag:Remove()
+				esp.Connection:Disconnect()
+			end
+			espElements = {}  -- Очищаем таблицу с ESP
+			enabled = false  -- Деактивируем ESP
+			TweenService:Create(script.Parent.Parent.Circle, TweenInfo.new(0.1, Enum.EasingStyle.Quad, Enum.EasingDirection.InOut), {BackgroundColor3 = Color3.fromRGB(189, 188, 194)}):Play()
+			script.Parent.Parent.Circle:TweenPosition(UDim2.new(0, 0, -0.1, 0), "In", "Quad", 0.12, true)
+			wait(0.05)
+		end
+	end)
+	
+	
+	
+end
+coroutine.wrap(FSCSTHQ_fake_script)()
+local function LETV_fake_script() -- Button_5.LocalScript 
+	local script = Instance.new('LocalScript', Button_5)
 
 	local TweenService = game:GetService("TweenService")
 	local thewhen = true
@@ -1946,9 +2168,9 @@ local function BRDRCQT_fake_script() -- Button_6.LocalScript
 		end
 	end)
 end
-coroutine.wrap(BRDRCQT_fake_script)()
-local function AIJUO_fake_script() -- Button_7.LocalScript 
-	local script = Instance.new('LocalScript', Button_7)
+coroutine.wrap(LETV_fake_script)()
+local function GHRPNT_fake_script() -- Button_6.LocalScript 
+	local script = Instance.new('LocalScript', Button_6)
 
 	local TweenService = game:GetService("TweenService")
 	local thewhen = true
@@ -1979,9 +2201,9 @@ local function AIJUO_fake_script() -- Button_7.LocalScript
 		end
 	end)
 end
-coroutine.wrap(AIJUO_fake_script)()
-local function PTTDH_fake_script() -- Button_8.LocalScript 
-	local script = Instance.new('LocalScript', Button_8)
+coroutine.wrap(GHRPNT_fake_script)()
+local function TXFFJ_fake_script() -- Button_7.LocalScript 
+	local script = Instance.new('LocalScript', Button_7)
 
 	local TweenService = game:GetService("TweenService")
 	local thewhen = true
@@ -2058,74 +2280,265 @@ local function PTTDH_fake_script() -- Button_8.LocalScript
 	end
 	
 end
-coroutine.wrap(PTTDH_fake_script)()
-local function PRYLDX_fake_script() -- Button_9.LocalScript 
+coroutine.wrap(TXFFJ_fake_script)()
+local function TTSGF_fake_script() -- Button_8.LocalScript 
+	local script = Instance.new('LocalScript', Button_8)
+
+	local TweenService = game:GetService("TweenService")
+	local replicatedStorage = game.ReplicatedStorage
+	local projectileHit = replicatedStorage.SFX.Hits.ProjectileHits.Blood.Hit
+	local originalHit = projectileHit:Clone()
+	originalHit.Name = "Hit_orig"
+	
+	local thewhen = true
+	local aim = true
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		if thewhen == false then
+			thewhen = true
+			aim = true
+			projectileHit.SoundId = "rbxassetid://1347140027"
+			projectileHit.RollOffMaxDistance = 10000000
+			projectileHit.RollOffMinDistance = 10000000
+			projectileHit.Volume = 2
+	
+			TweenService:Create(script.Parent.Parent.Circle, TweenInfo.new(0.1, Enum.EasingStyle.Quad, Enum.EasingDirection.InOut), {BackgroundColor3 = Color3.fromRGB(92, 147, 249)}):Play()
+			script.Parent.Parent.Circle:TweenPosition(UDim2.new(0.5, 0, -0.1, 0), "In", "Quad", 0.12, true)
+			wait(0.05)
+		else
+			thewhen = false
+			aim = false
+	
+			projectileHit:Destroy()  
+			local newHit = originalHit:Clone() 
+			newHit.Name = "Hit" 
+			newHit.Parent = projectileHit.Parent 
+	
+			projectileHit.SoundId= "rbxassetid://4581728529"
+			projectileHit.RollOffMaxDistance = 105
+			projectileHit.RollOffMinDistance = 7
+			projectileHit.Volume = 1
+	
+			TweenService:Create(script.Parent.Parent.Circle, TweenInfo.new(0.1, Enum.EasingStyle.Quad, Enum.EasingDirection.InOut), {BackgroundColor3 = Color3.fromRGB(189, 188, 194)}):Play()
+			script.Parent.Parent.Circle:TweenPosition(UDim2.new(0, 0, -0.1, 0), "In", "Quad", 0.12, true)
+			wait(0.05)
+		end
+	end)
+	
+end
+coroutine.wrap(TTSGF_fake_script)()
+local function YIJBIE_fake_script() -- Button_9.LocalScript 
 	local script = Instance.new('LocalScript', Button_9)
 
 	local TweenService = game:GetService("TweenService")
 	local thewhen = true
-	local bhop = false
+	local realAmmoTypes = game.ReplicatedStorage:FindFirstChild("realAmmoTypes") or game.ReplicatedStorage:FindFirstChild("AmmoTypes") and game.ReplicatedStorage:FindFirstChild("AmmoTypes"):Clone(); if realAmmoTypes then realAmmoTypes.Name = "realAmmoTypes" end
 	
 	script.Parent.MouseButton1Click:Connect(function()
 		if thewhen == false then
 			thewhen = true
-			bhop= true
+			
+			for i,v in ipairs(game.ReplicatedStorage.AmmoTypes:GetChildren()) do
+				if v then
+					v:SetAttribute("ProjectileDrop", 0)
+					v:SetAttribute("Tracer", true)
+					v:SetAttribute("Drag", 0)
+					v:SetAttribute("MuzzleVelocity", 3000)
+					v:SetAttribute("RecoilStrength", 0)
+					if v:GetAttribute("AccuracyDeviation") then
+						v:SetAttribute("AccuracyDeviation", 0)
+					end
+				end
+			end
+			
 			TweenService:Create(script.Parent.Parent.Circle, TweenInfo.new(0.1, Enum.EasingStyle.Quad, Enum.EasingDirection.InOut), {BackgroundColor3 = Color3.fromRGB(92, 147, 249)}):Play()
 			script.Parent.Parent.Circle:TweenPosition(UDim2.new(0.5, 0, -0.1, 0), "In", "Quad", 0.12, true)
 			wait(0.05)
 		else
 			thewhen = false
-			bhop= false
+			
+			for i,v in ipairs(game.ReplicatedStorage.AmmoTypes:GetChildren()) do
+				if v then
+					local realAmmo = realAmmoTypes:FindFirstChild(v.Name)
+					if realAmmo then
+						v:SetAttribute("ProjectileDrop", realAmmo:GetAttribute("ProjectileDrop"))
+						v:SetAttribute("Tracer", realAmmo:GetAttribute("Tracer"))
+						v:SetAttribute("Drag", realAmmo:GetAttribute("Drag"))
+						v:SetAttribute("MuzzleVelocity", realAmmo:GetAttribute("MuzzleVelocity"))
+						v:SetAttribute("RecoilStrength", realAmmo:GetAttribute("RecoilStrength"))
+						if v:GetAttribute("AccuracyDeviation") then
+							v:SetAttribute("AccuracyDeviation", realAmmo:GetAttribute("AccuracyDeviation"))
+						end
+					end
+				end
+			end
+			
 			TweenService:Create(script.Parent.Parent.Circle, TweenInfo.new(0.1, Enum.EasingStyle.Quad, Enum.EasingDirection.InOut), {BackgroundColor3 = Color3.fromRGB(189, 188, 194)}):Play()
 			script.Parent.Parent.Circle:TweenPosition(UDim2.new(0, 0, -0.1, 0), "In", "Quad", 0.12, true)
 			wait(0.05)
 		end
 	end)
-	
-	game["Run Service"].RenderStepped:Connect(function()
-		task.wait()
-		if bhop == true then
-			if game.Players.LocalPlayer.Character and game.Players.LocalPlayer.Character:FindFirstChildWhichIsA("Humanoid") then
-				game.Players.LocalPlayer.Character.Humanoid:SetAttribute("JumpCooldown", 0)
-			end
-		end
-	end)
 end
-coroutine.wrap(PRYLDX_fake_script)()
-local function KBNF_fake_script() -- Button_10.LocalScript 
+coroutine.wrap(YIJBIE_fake_script)()
+local function NYJYNWT_fake_script() -- Button_10.LocalScript 
 	local script = Instance.new('LocalScript', Button_10)
 
 	local TweenService = game:GetService("TweenService")
+	local UserInputService = game:GetService("UserInputService")
+	local camera = game.Workspace.CurrentCamera
+	
+	local isZoomed = false
+	local oldZoom = camera.FieldOfView
+	
+	local Settings = {
+		ZoomTime = 0.1,
+		ZoomedAmount = 30
+	}
+	
+	local function createZoom(time, amount)
+		local Tween_Info = TweenInfo.new(time, Enum.EasingStyle.Sine, Enum.EasingDirection.InOut) 
+		local Tween = TweenService:Create(camera, Tween_Info, {FieldOfView = amount})
+		return Tween
+	end
+	
+	local function toggleZoom()
+		if isZoomed then
+			-- Установить обратно в исходное значение
+			isZoomed = false
+			script.Parent.Parent.Parent.Zoomkey.Visible = false
+			script.Parent.Parent.Parent.ZoomkeyText.Visible = false
+	
+			TweenService:Create(script.Parent.Parent.Circle, TweenInfo.new(0.1, Enum.EasingStyle.Quad, Enum.EasingDirection.InOut), {BackgroundColor3 = Color3.fromRGB(189, 188, 194)}):Play()
+			script.Parent.Parent.Circle:TweenPosition(UDim2.new(0, 0, -0.1, 0), "In", "Quad", 0.12, true)
+			wait(0.05)
+	
+			-- Возврат масштаба
+			createZoom(Settings.ZoomTime, oldZoom):Play()
+		else
+			-- Включить зум
+			isZoomed = true
+			script.Parent.Parent.Parent.Zoomkey.Visible = true
+			script.Parent.Parent.Parent.ZoomkeyText.Visible = true
+	
+			TweenService:Create(script.Parent.Parent.Circle, TweenInfo.new(0.1, Enum.EasingStyle.Quad, Enum.EasingDirection.InOut), {BackgroundColor3 = Color3.fromRGB(92, 147, 249)}):Play()
+			script.Parent.Parent.Circle:TweenPosition(UDim2.new(0.5, 0, -0.1, 0), "In", "Quad", 0.12, true)
+			wait(0.05)
+	
+			-- Привязка событий для изменения масштаба
+			UserInputService.InputBegan:Connect(function(input)
+				if isZoomed and input.KeyCode == Enum.KeyCode[script.Parent.Parent.Parent.Zoomkey.Key.Value] then
+					createZoom(Settings.ZoomTime, Settings.ZoomedAmount):Play()
+				end
+			end)
+	
+			UserInputService.InputEnded:Connect(function(input)
+				if input.KeyCode == Enum.KeyCode[script.Parent.Parent.Parent.Zoomkey.Key.Value] then
+					if isZoomed then
+						createZoom(Settings.ZoomTime, oldZoom):Play()
+					end
+				end
+			end)
+		end
+	end
+	
+	script.Parent.MouseButton1Click:Connect(toggleZoom)
+	
+end
+coroutine.wrap(NYJYNWT_fake_script)()
+local function KEVZNOU_fake_script() -- Zoomkey.LocalScript 
+	local script = Instance.new('LocalScript', Zoomkey)
+
+	local textButton = script.Parent
+	local UserInputService = game:GetService("UserInputService")
+	local isWaitingForKeyPress = false
+	
+	local function onKeyPress(input)
+		if isWaitingForKeyPress and input.UserInputType == Enum.UserInputType.Keyboard then
+			textButton.Text = "["..input.KeyCode.Name.."]"
+			script.Parent.Key.Value = input.KeyCode.Name
+			isWaitingForKeyPress = false
+			UserInputService.InputBegan:Disconnect(onKeyPress)
+		end
+	end
+	
+	local function onButtonClick()
+		textButton.Text = "[...]"
+		isWaitingForKeyPress = true
+		UserInputService.InputBegan:Connect(onKeyPress)
+	end
+	
+	textButton.MouseButton1Click:Connect(onButtonClick)
+end
+coroutine.wrap(KEVZNOU_fake_script)()
+local function PTLSVK_fake_script() -- Button_11.LocalScript 
+	local script = Instance.new('LocalScript', Button_11)
+
+	local TweenService = game:GetService("TweenService")
 	local thewhen = true
-	local walkspeed = false
 	
 	script.Parent.MouseButton1Click:Connect(function()
 		if thewhen == false then
 			thewhen = true
-			walkspeed= true
+			game.Players.LocalPlayer.PlayerGui.MainGui.MainFrame.ScreenEffects.Visible = false
 			TweenService:Create(script.Parent.Parent.Circle, TweenInfo.new(0.1, Enum.EasingStyle.Quad, Enum.EasingDirection.InOut), {BackgroundColor3 = Color3.fromRGB(92, 147, 249)}):Play()
 			script.Parent.Parent.Circle:TweenPosition(UDim2.new(0.5, 0, -0.1, 0), "In", "Quad", 0.12, true)
 			wait(0.05)
 		else
 			thewhen = false
-			walkspeed= false
+			game.Players.LocalPlayer.PlayerGui.MainGui.MainFrame.ScreenEffects.Visible = true
+			TweenService:Create(script.Parent.Parent.Circle, TweenInfo.new(0.1, Enum.EasingStyle.Quad, Enum.EasingDirection.InOut), {BackgroundColor3 = Color3.fromRGB(189, 188, 194)}):Play()
+			script.Parent.Parent.Circle:TweenPosition(UDim2.new(0, 0, -0.1, 0), "In", "Quad", 0.12, true)
+			wait(0.05)
+		end
+	end)
+end
+coroutine.wrap(PTLSVK_fake_script)()
+local function HHLOL_fake_script() -- Button_12.LocalScript 
+	local script = Instance.new('LocalScript', Button_12)
+
+	local TweenService = game:GetService("TweenService")
+	lighting = game.Lighting
+	local thewhen = true
+	local aim = true
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		if thewhen == false then
+			thewhen = true
+			aim = true
+			game.Lighting.Ambient = Color3.fromRGB(178, 178, 178)
+			game:GetService("Lighting").GlobalShadows = false
+			game:GetService("Lighting").FogEnd = 14881488
+			local da = Instance.new("ColorCorrectionEffect")
+			da.Name= "da"
+			da.Brightness= 0.3
+			da.Contrast= 0
+			da.Saturation= 0
+			da.Enabled= true
+			lighting.Ambient = Color3.new(1, 1, 1)
+			lighting.ColorShift_Bottom = Color3.new(1, 1, 1)
+			lighting.ColorShift_Bottom = Color3.new(1, 1, 1)
+			TweenService:Create(script.Parent.Parent.Circle, TweenInfo.new(0.1, Enum.EasingStyle.Quad, Enum.EasingDirection.InOut), {BackgroundColor3 = Color3.fromRGB(92, 147, 249)}):Play()
+			script.Parent.Parent.Circle:TweenPosition(UDim2.new(0.5, 0, -0.1, 0), "In", "Quad", 0.12, true)
+			wait(0.05)
+		else
+			thewhen = false
+			aim = false
+	
+			game.Lighting.Ambient = Color3.fromRGB(0,0,0)
+			game:GetService("Lighting").FogEnd = 14881488
+			game:GetService("Lighting").GlobalShadows = true
+			lighting.Ambient = Color3.new(0, 0, 0)
+			lighting.ColorShift_Bottom = Color3.new(0, 0, 0)
+			lighting.ColorShift_Bottom = Color3.new(0, 0, 0)
 			TweenService:Create(script.Parent.Parent.Circle, TweenInfo.new(0.1, Enum.EasingStyle.Quad, Enum.EasingDirection.InOut), {BackgroundColor3 = Color3.fromRGB(189, 188, 194)}):Play()
 			script.Parent.Parent.Circle:TweenPosition(UDim2.new(0, 0, -0.1, 0), "In", "Quad", 0.12, true)
 			wait(0.05)
 		end
 	end)
 	
-	game["Run Service"].RenderStepped:Connect(function()
-		task.wait()
-		if walkspeed == true then
-			if game.Players.LocalPlayer.Character and game.Players.LocalPlayer.Character:FindFirstChildWhichIsA("Humanoid") then
-				game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 18
-			end
-		end
-	end)
 end
-coroutine.wrap(KBNF_fake_script)()
-local function VDUF_fake_script() -- Tabs.LocalScript 
+coroutine.wrap(HHLOL_fake_script)()
+local function VVCN_fake_script() -- Tabs.LocalScript 
 	local script = Instance.new('LocalScript', Tabs)
 
 	local vis = script.Parent:WaitForChild("Effect")
@@ -2183,8 +2596,8 @@ local function VDUF_fake_script() -- Tabs.LocalScript
 	end
 	
 end
-coroutine.wrap(VDUF_fake_script)()
-local function PUBDKL_fake_script() -- Main.key 
+coroutine.wrap(VVCN_fake_script)()
+local function MKPBRLV_fake_script() -- Main.key 
 	local script = Instance.new('LocalScript', Main)
 
 	local userInputService = game:GetService("UserInputService")
@@ -2203,4 +2616,4 @@ local function PUBDKL_fake_script() -- Main.key
 		return
 	end)
 end
-coroutine.wrap(PUBDKL_fake_script)()
+coroutine.wrap(MKPBRLV_fake_script)()
